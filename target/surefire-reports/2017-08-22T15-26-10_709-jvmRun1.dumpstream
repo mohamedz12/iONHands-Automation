@@ -1,0 +1,670 @@
+# Created on 2017-08-22T15:27:08.707
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:386)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+# Created on 2017-08-22T15:27:27.135
+Unexpected IOException: 5,1,Scenario: Opening Login Page,* Open the browser(Scenario: Opening Login Page),null,null,null
+
+
+# Created on 2017-08-22T15:27:27.139
+Unexpected IOException: 7,1,Scenario: Opening Login Page,* Open the browser(Scenario: Opening Login Page),null,Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.\000ABuild info: version: '3.4.0'\002C revision: 'unknown'\002C time: 'unknown'\000ASystem info: host: 'Tatras-MacBook-Pro.local'\002C ip: 'fd1c:6758:6f9b:da00:fdaf:f568:2fb9:318d'\002C os.name: 'Mac OS X'\002C os.arch: 'x86_64'\002C os.version: '10.12.3'\002C java.version: '1.8.0_111'\000ADriver info: driver.version: RemoteWebDriver,null,Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.\000ABuild info: version: '3.4.0'\002C revision: 'unknown'\002C time: 'unknown'\000ASystem info: host: 'Tatras-MacBook-Pro.local'\002C ip: 'fd1c:6758:6f9b:da00:fdaf:f568:2fb9:318d'\002C os.name: 'Mac OS X'\002C os.arch: 'x86_64'\002C os.version: '10.12.3'\002C java.version: '1.8.0_111'\000ADriver info: driver.version: RemoteWebDriver,Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.\000ABuild info: version: '3.4.0'\002C revision: 'unknown'\002C time: 'unknown'\000ASystem info: host: 'Tatras-MacBook-Pro.local'\002C ip: 'fd1c:6758:6f9b:da00:fdaf:f568:2fb9:318d'\002C os.name: 'Mac OS X'\002C os.arch: 'x86_64'\002C os.version: '10.12.3'\002C java.version: '1.8.0_111'\000ADriver info: driver.version: RemoteWebDriver,org.openqa.selenium.remote.UnreachableBrowserException: \000ACould not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.\000ABuild info: version: '3.4.0'\002C revision: 'unknown'\002C time: 'unknown'\000ASystem info: host: 'Tatras-MacBook-Pro.local'\002C ip: 'fd1c:6758:6f9b:da00:fdaf:f568:2fb9:318d'\002C os.name: 'Mac OS X'\002C os.arch: 'x86_64'\002C os.version: '10.12.3'\002C java.version: '1.8.0_111'\000ADriver info: driver.version: RemoteWebDriver\000ACaused by: org.apache.http.conn.HttpHostConnectException: Connect to 41.176.240.113:7654 [/41.176.240.113] failed: Operation timed out (Connection timed out)\000ACaused by: java.net.ConnectException: Operation timed out (Connection timed out)\000A
+
+
+# Created on 2017-08-22T15:27:27.140
+Unexpected IOException: 7,1,Scenario: Opening Login Page,Scenario: Opening Login Page,null,Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.\000ABuild info: version: '3.4.0'\002C revision: 'unknown'\002C time: 'unknown'\000ASystem info: host: 'Tatras-MacBook-Pro.local'\002C ip: 'fd1c:6758:6f9b:da00:fdaf:f568:2fb9:318d'\002C os.name: 'Mac OS X'\002C os.arch: 'x86_64'\002C os.version: '10.12.3'\002C java.version: '1.8.0_111'\000ADriver info: driver.version: RemoteWebDriver,null,Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.\000ABuild info: version: '3.4.0'\002C revision: 'unknown'\002C time: 'unknown'\000ASystem info: host: 'Tatras-MacBook-Pro.local'\002C ip: 'fd1c:6758:6f9b:da00:fdaf:f568:2fb9:318d'\002C os.name: 'Mac OS X'\002C os.arch: 'x86_64'\002C os.version: '10.12.3'\002C java.version: '1.8.0_111'\000ADriver info: driver.version: RemoteWebDriver,Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.\000ABuild info: version: '3.4.0'\002C revision: 'unknown'\002C time: 'unknown'\000ASystem info: host: 'Tatras-MacBook-Pro.local'\002C ip: 'fd1c:6758:6f9b:da00:fdaf:f568:2fb9:318d'\002C os.name: 'Mac OS X'\002C os.arch: 'x86_64'\002C os.version: '10.12.3'\002C java.version: '1.8.0_111'\000ADriver info: driver.version: RemoteWebDriver,org.openqa.selenium.remote.UnreachableBrowserException: \000ACould not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.\000ABuild info: version: '3.4.0'\002C revision: 'unknown'\002C time: 'unknown'\000ASystem info: host: 'Tatras-MacBook-Pro.local'\002C ip: 'fd1c:6758:6f9b:da00:fdaf:f568:2fb9:318d'\002C os.name: 'Mac OS X'\002C os.arch: 'x86_64'\002C os.version: '10.12.3'\002C java.version: '1.8.0_111'\000ADriver info: driver.version: RemoteWebDriver\000ACaused by: org.apache.http.conn.HttpHostConnectException: Connect to 41.176.240.113:7654 [/41.176.240.113] failed: Operation timed out (Connection timed out)\000ACaused by: java.net.ConnectException: Operation timed out (Connection timed out)\000A
+
+
+# Created on 2017-08-22T15:27:27.141
+Unexpected IOException: 9,1,Scenario: Opening Login Page,* User navigates to 'http://qc.ionhands-sa.com/'(Scenario: Opening Login Page),null,null,null
+
+
+# Created on 2017-08-22T15:27:27.142
+Unexpected IOException: 9,1,Scenario: Opening Login Page,* User clicks at Login link(Scenario: Opening Login Page),null,null,null
+
+
+# Created on 2017-08-22T15:27:27.142
+Unexpected IOException: 9,1,Scenario: Opening Login Page,* The system will open Login page successfully(Scenario: Opening Login Page),null,null,null
+
+
+# Created on 2017-08-22T15:27:27.143
+Unexpected IOException: 9,1,Scenario: Opening Login Page,* Close the browser(Scenario: Opening Login Page),null,null,null
+
+
+# Created on 2017-08-22T15:27:27.144
+Unexpected IOException with stream: 
+
+
+# Created on 2017-08-22T15:27:27.144
+Unexpected IOException with stream: [31mFailed scenarios:[0m
+
+
+# Created on 2017-08-22T15:27:27.145
+Unexpected IOException with stream: [31mFeatures/00-Login.feature:10 [0m
+
+# Created on 2017-08-22T15:27:27.145
+Unexpected IOException with stream: # Scenario: Opening Login Page
+
+
+# Created on 2017-08-22T15:27:27.145
+Unexpected IOException with stream: 
+
+
+# Created on 2017-08-22T15:27:27.145
+Unexpected IOException with stream: 1
+
+# Created on 2017-08-22T15:27:27.146
+Unexpected IOException with stream:  Scenarios (
+
+# Created on 2017-08-22T15:27:27.146
+Unexpected IOException with stream: [31m1 failed[0m
+
+# Created on 2017-08-22T15:27:27.146
+Unexpected IOException with stream: )
+
+
+# Created on 2017-08-22T15:27:27.146
+Unexpected IOException with stream: 5
+
+# Created on 2017-08-22T15:27:27.147
+Unexpected IOException with stream:  Steps (
+
+# Created on 2017-08-22T15:27:27.147
+Unexpected IOException with stream: [31m1 failed[0m
+
+# Created on 2017-08-22T15:27:27.147
+Unexpected IOException with stream: , 
+
+# Created on 2017-08-22T15:27:27.147
+Unexpected IOException with stream: [36m4 skipped[0m
+
+# Created on 2017-08-22T15:27:27.148
+Unexpected IOException with stream: )
+
+
+# Created on 2017-08-22T15:27:27.148
+Unexpected IOException with stream: 1m
+
+# Created on 2017-08-22T15:27:27.148
+Unexpected IOException with stream: 15.714s
+
+
+# Created on 2017-08-22T15:27:27.149
+Unexpected IOException with stream: 
+
+
+# Created on 2017-08-22T15:27:27.149
+Unexpected IOException with stream: org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'Tatras-MacBook-Pro.local', ip: 'fd1c:6758:6f9b:da00:fdaf:f568:2fb9:318d', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.3', java.version: '1.8.0_111'
+Driver info: driver.version: RemoteWebDriver
+
+# Created on 2017-08-22T15:27:27.149
+Unexpected IOException with stream: 
+
+
+# Created on 2017-08-22T15:27:27.150
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:658)
+
+# Created on 2017-08-22T15:27:27.150
+Unexpected IOException with stream: 
+
+
+# Created on 2017-08-22T15:27:27.150
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:250)
+
+# Created on 2017-08-22T15:27:27.150
+Unexpected IOException with stream: 
+
+
+# Created on 2017-08-22T15:27:27.150
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
+
+# Created on 2017-08-22T15:27:27.151
+Unexpected IOException with stream: 
+
+
+# Created on 2017-08-22T15:27:27.151
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:137)
+
+# Created on 2017-08-22T15:27:27.151
+Unexpected IOException with stream: 
+
+
+# Created on 2017-08-22T15:27:27.151
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:174)
+
+# Created on 2017-08-22T15:27:27.151
+Unexpected IOException with stream: 
+
+
+# Created on 2017-08-22T15:27:27.152
+Unexpected IOException with stream: 	at StepDefinition.StepDefinition.open_the_browser(StepDefinition.java:20)
+
+# Created on 2017-08-22T15:27:27.152
+Unexpected IOException with stream: 
+
+
+# Created on 2017-08-22T15:27:27.152
+Unexpected IOException with stream: 	at ✽.* Open the browser(Features/00-Login.feature:5)
+
+# Created on 2017-08-22T15:27:27.152
+Unexpected IOException with stream: 
+
+
+# Created on 2017-08-22T15:27:27.153
+Unexpected IOException with stream: Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 41.176.240.113:7654 [/41.176.240.113] failed: Operation timed out (Connection timed out)
+
+# Created on 2017-08-22T15:27:27.153
+Unexpected IOException with stream: 
+
+
+# Created on 2017-08-22T15:27:27.153
+Unexpected IOException with stream: 	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:159)
+
+# Created on 2017-08-22T15:27:27.153
+Unexpected IOException with stream: 
+
+
+# Created on 2017-08-22T15:27:27.153
+Unexpected IOException with stream: 	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:359)
+
+# Created on 2017-08-22T15:27:27.154
+Unexpected IOException with stream: 
+
+
+# Created on 2017-08-22T15:27:27.154
+Unexpected IOException with stream: 	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:381)
+
+# Created on 2017-08-22T15:27:27.154
+Unexpected IOException with stream: 
+
+
+# Created on 2017-08-22T15:27:27.154
+Unexpected IOException with stream: 	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:237)
+
+# Created on 2017-08-22T15:27:27.154
+Unexpected IOException with stream: 
+
+
+# Created on 2017-08-22T15:27:27.154
+Unexpected IOException with stream: 	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:185)
+
+# Created on 2017-08-22T15:27:27.155
+Unexpected IOException with stream: 
+
+
+# Created on 2017-08-22T15:27:27.155
+Unexpected IOException with stream: 	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+
+# Created on 2017-08-22T15:27:27.155
+Unexpected IOException with stream: 
+
+
+# Created on 2017-08-22T15:27:27.155
+Unexpected IOException with stream: 	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:111)
+
+# Created on 2017-08-22T15:27:27.156
+Unexpected IOException with stream: 
+
+
+# Created on 2017-08-22T15:27:27.156
+Unexpected IOException with stream: 	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+
+# Created on 2017-08-22T15:27:27.156
+Unexpected IOException with stream: 
+
+
+# Created on 2017-08-22T15:27:27.156
+Unexpected IOException with stream: 	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
+
+# Created on 2017-08-22T15:27:27.156
+Unexpected IOException with stream: 
+
+
+# Created on 2017-08-22T15:27:27.157
+Unexpected IOException with stream: 	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+
+# Created on 2017-08-22T15:27:27.157
+Unexpected IOException with stream: 
+
+
+# Created on 2017-08-22T15:27:27.157
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:139)
+
+# Created on 2017-08-22T15:27:27.157
+Unexpected IOException with stream: 
+
+
+# Created on 2017-08-22T15:27:27.157
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:87)
+
+# Created on 2017-08-22T15:27:27.158
+Unexpected IOException with stream: 
+
+
+# Created on 2017-08-22T15:27:27.158
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:343)
+
+# Created on 2017-08-22T15:27:27.158
+Unexpected IOException with stream: 
+
+
+# Created on 2017-08-22T15:27:27.158
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:159)
+
+# Created on 2017-08-22T15:27:27.158
+Unexpected IOException with stream: 
+
+
+# Created on 2017-08-22T15:27:27.159
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+
+# Created on 2017-08-22T15:27:27.159
+Unexpected IOException with stream: 
+
+
+# Created on 2017-08-22T15:27:27.159
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+
+# Created on 2017-08-22T15:27:27.159
+Unexpected IOException with stream: 
+
+
+# Created on 2017-08-22T15:27:27.159
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:250)
+
+# Created on 2017-08-22T15:27:27.160
+Unexpected IOException with stream: 
+
+
+# Created on 2017-08-22T15:27:27.160
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
+
+# Created on 2017-08-22T15:27:27.160
+Unexpected IOException with stream: 
+
+
+# Created on 2017-08-22T15:27:27.160
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:137)
+
+# Created on 2017-08-22T15:27:27.160
+Unexpected IOException with stream: 
+
+
+# Created on 2017-08-22T15:27:27.161
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:174)
+
+# Created on 2017-08-22T15:27:27.161
+Unexpected IOException with stream: 
+
+
+# Created on 2017-08-22T15:27:27.161
+Unexpected IOException with stream: 	at StepDefinition.StepDefinition.open_the_browser(StepDefinition.java:20)
+
+# Created on 2017-08-22T15:27:27.161
+Unexpected IOException with stream: 
+
+
+# Created on 2017-08-22T15:27:27.161
+Unexpected IOException with stream: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+# Created on 2017-08-22T15:27:27.162
+Unexpected IOException with stream: 
+
+
+# Created on 2017-08-22T15:27:27.162
+Unexpected IOException with stream: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+
+# Created on 2017-08-22T15:27:27.162
+Unexpected IOException with stream: 
+
+
+# Created on 2017-08-22T15:27:27.162
+Unexpected IOException with stream: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+# Created on 2017-08-22T15:27:27.162
+Unexpected IOException with stream: 
+
+
+# Created on 2017-08-22T15:27:27.163
+Unexpected IOException with stream: 	at java.lang.reflect.Method.invoke(Method.java:498)
+
+# Created on 2017-08-22T15:27:27.163
+Unexpected IOException with stream: 
+
+
+# Created on 2017-08-22T15:27:27.163
+Unexpected IOException with stream: 	at cucumber.runtime.Utils$1.call(Utils.java:40)
+
+# Created on 2017-08-22T15:27:27.163
+Unexpected IOException with stream: 
+
+
+# Created on 2017-08-22T15:27:27.163
+Unexpected IOException with stream: 	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+
+# Created on 2017-08-22T15:27:27.164
+Unexpected IOException with stream: 
+
+
+# Created on 2017-08-22T15:27:27.164
+Unexpected IOException with stream: 	at cucumber.runtime.Utils.invoke(Utils.java:34)
+
+# Created on 2017-08-22T15:27:27.164
+Unexpected IOException with stream: 
+
+
+# Created on 2017-08-22T15:27:27.164
+Unexpected IOException with stream: 	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:38)
+
+# Created on 2017-08-22T15:27:27.164
+Unexpected IOException with stream: 
+
+
+# Created on 2017-08-22T15:27:27.165
+Unexpected IOException with stream: 	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:37)
+
+# Created on 2017-08-22T15:27:27.165
+Unexpected IOException with stream: 
+
+
+# Created on 2017-08-22T15:27:27.165
+Unexpected IOException with stream: 	at cucumber.runtime.Runtime.runStep(Runtime.java:300)
+
+# Created on 2017-08-22T15:27:27.165
+Unexpected IOException with stream: 
+
+
+# Created on 2017-08-22T15:27:27.165
+Unexpected IOException with stream: 	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)
+
+# Created on 2017-08-22T15:27:27.166
+Unexpected IOException with stream: 
+
+
+# Created on 2017-08-22T15:27:27.166
+Unexpected IOException with stream: 	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)
+
+# Created on 2017-08-22T15:27:27.166
+Unexpected IOException with stream: 
+
+
+# Created on 2017-08-22T15:27:27.166
+Unexpected IOException with stream: 	at cucumber.runtime.model.CucumberScenario.runBackground(CucumberScenario.java:59)
+
+# Created on 2017-08-22T15:27:27.166
+Unexpected IOException with stream: 
+
+
+# Created on 2017-08-22T15:27:27.167
+Unexpected IOException with stream: 	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:42)
+
+# Created on 2017-08-22T15:27:27.167
+Unexpected IOException with stream: 
+
+
+# Created on 2017-08-22T15:27:27.167
+Unexpected IOException with stream: 	at cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)
+
+# Created on 2017-08-22T15:27:27.167
+Unexpected IOException with stream: 
+
+
+# Created on 2017-08-22T15:27:27.167
+Unexpected IOException with stream: 	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)
+
+# Created on 2017-08-22T15:27:27.168
+Unexpected IOException with stream: 
+
+
+# Created on 2017-08-22T15:27:27.168
+Unexpected IOException with stream: 	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)
+
+# Created on 2017-08-22T15:27:27.168
+Unexpected IOException with stream: 
+
+
+# Created on 2017-08-22T15:27:27.168
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+
+# Created on 2017-08-22T15:27:27.169
+Unexpected IOException with stream: 
+
+
+# Created on 2017-08-22T15:27:27.169
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+
+# Created on 2017-08-22T15:27:27.169
+Unexpected IOException with stream: 
+
+
+# Created on 2017-08-22T15:27:27.169
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+
+# Created on 2017-08-22T15:27:27.171
+Unexpected IOException with stream: 
+
+
+# Created on 2017-08-22T15:27:27.172
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+
+# Created on 2017-08-22T15:27:27.172
+Unexpected IOException with stream: 
+
+
+# Created on 2017-08-22T15:27:27.172
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+
+# Created on 2017-08-22T15:27:27.172
+Unexpected IOException with stream: 
+
+
+# Created on 2017-08-22T15:27:27.172
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+
+# Created on 2017-08-22T15:27:27.172
+Unexpected IOException with stream: 
+
+
+# Created on 2017-08-22T15:27:27.173
+Unexpected IOException with stream: 	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)
+
+# Created on 2017-08-22T15:27:27.173
+Unexpected IOException with stream: 
+
+
+# Created on 2017-08-22T15:27:27.173
+Unexpected IOException with stream: 	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)
+
+# Created on 2017-08-22T15:27:27.173
+Unexpected IOException with stream: 
+
+
+# Created on 2017-08-22T15:27:27.173
+Unexpected IOException with stream: 	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)
+
+# Created on 2017-08-22T15:27:27.174
+Unexpected IOException with stream: 
+
+
+# Created on 2017-08-22T15:27:27.174
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+
+# Created on 2017-08-22T15:27:27.174
+Unexpected IOException with stream: 
+
+
+# Created on 2017-08-22T15:27:27.174
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+
+# Created on 2017-08-22T15:27:27.174
+Unexpected IOException with stream: 
+
+
+# Created on 2017-08-22T15:27:27.175
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+
+# Created on 2017-08-22T15:27:27.175
+Unexpected IOException with stream: 
+
+
+# Created on 2017-08-22T15:27:27.175
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+
+# Created on 2017-08-22T15:27:27.175
+Unexpected IOException with stream: 
+
+
+# Created on 2017-08-22T15:27:27.176
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+
+# Created on 2017-08-22T15:27:27.176
+Unexpected IOException with stream: 
+
+
+# Created on 2017-08-22T15:27:27.176
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+
+# Created on 2017-08-22T15:27:27.176
+Unexpected IOException with stream: 
+
+
+# Created on 2017-08-22T15:27:27.176
+Unexpected IOException with stream: 	at cucumber.api.junit.Cucumber.run(Cucumber.java:100)
+
+# Created on 2017-08-22T15:27:27.177
+Unexpected IOException with stream: 
+
+
+# Created on 2017-08-22T15:27:27.177
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+
+# Created on 2017-08-22T15:27:27.177
+Unexpected IOException with stream: 
+
+
+# Created on 2017-08-22T15:27:27.177
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:272)
+
+# Created on 2017-08-22T15:27:27.177
+Unexpected IOException with stream: 
+
+
+# Created on 2017-08-22T15:27:27.177
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:236)
+
+# Created on 2017-08-22T15:27:27.178
+Unexpected IOException with stream: 
+
+
+# Created on 2017-08-22T15:27:27.178
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+
+# Created on 2017-08-22T15:27:27.178
+Unexpected IOException with stream: 
+
+
+# Created on 2017-08-22T15:27:27.178
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:386)
+
+# Created on 2017-08-22T15:27:27.178
+Unexpected IOException with stream: 
+
+
+# Created on 2017-08-22T15:27:27.178
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:323)
+
+# Created on 2017-08-22T15:27:27.179
+Unexpected IOException with stream: 
+
+
+# Created on 2017-08-22T15:27:27.179
+Unexpected IOException with stream: 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:143)
+
+# Created on 2017-08-22T15:27:27.179
+Unexpected IOException with stream: 
+
+
+# Created on 2017-08-22T15:27:27.179
+Unexpected IOException with stream: Caused by: java.net.ConnectException: Operation timed out (Connection timed out)
+
+# Created on 2017-08-22T15:27:27.179
+Unexpected IOException with stream: 
+
+
+# Created on 2017-08-22T15:27:27.180
+Unexpected IOException with stream: 	at java.net.PlainSocketImpl.socketConnect(Native Method)
+
+# Created on 2017-08-22T15:27:27.180
+Unexpected IOException with stream: 
+
+
+# Created on 2017-08-22T15:27:27.180
+Unexpected IOException with stream: 	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+
+# Created on 2017-08-22T15:27:27.180
+Unexpected IOException with stream: 
+
+
+# Created on 2017-08-22T15:27:27.180
+Unexpected IOException with stream: 	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+
+# Created on 2017-08-22T15:27:27.180
+Unexpected IOException with stream: 
+
+
+# Created on 2017-08-22T15:27:27.181
+Unexpected IOException with stream: 	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+
+# Created on 2017-08-22T15:27:27.181
+Unexpected IOException with stream: 
+
+
+# Created on 2017-08-22T15:27:27.181
+Unexpected IOException with stream: 	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+
+# Created on 2017-08-22T15:27:27.181
+Unexpected IOException with stream: 
+
+
+# Created on 2017-08-22T15:27:27.181
+Unexpected IOException with stream: 	at java.net.Socket.connect(Socket.java:589)
+
+# Created on 2017-08-22T15:27:27.181
+Unexpected IOException with stream: 
+
+
+# Created on 2017-08-22T15:27:27.182
+Unexpected IOException with stream: 	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:75)
+
+# Created on 2017-08-22T15:27:27.182
+Unexpected IOException with stream: 
+
+
+# Created on 2017-08-22T15:27:27.182
+Unexpected IOException with stream: 	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:142)
+
+# Created on 2017-08-22T15:27:27.182
+Unexpected IOException with stream: 
+
+
+# Created on 2017-08-22T15:27:27.182
+Unexpected IOException with stream: 	... 60 more
+
+# Created on 2017-08-22T15:27:27.182
+Unexpected IOException with stream: 
+
+
+# Created on 2017-08-22T15:27:27.182
+Unexpected IOException with stream: 
+
+
+# Created on 2017-08-22T15:27:27.183
+Unexpected IOException: 2,1,org.apache.maven.surefire.junit4.JUnit4Provider,CucumberTest.TestRunner,null,null,null
+
+

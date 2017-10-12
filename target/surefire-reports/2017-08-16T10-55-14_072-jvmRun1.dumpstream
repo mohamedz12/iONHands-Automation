@@ -1,0 +1,1806 @@
+# Created on 2017-08-16T10:55:44.576
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:386)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+# Created on 2017-08-16T10:55:48.678
+Unexpected IOException: 5,1,Scenario: User logged in insuccessfully,* User navigates to 'http://qc.ionhands-sa.com/'(Scenario: User logged in insuccessfully),null,null,null
+
+
+# Created on 2017-08-16T10:55:48.678
+Unexpected IOException: 6,1,Scenario: User logged in insuccessfully,* User navigates to 'http://qc.ionhands-sa.com/'(Scenario: User logged in insuccessfully),null,null,null
+
+
+# Created on 2017-08-16T10:55:51.688
+Unexpected IOException: 5,1,Scenario: User logged in insuccessfully,* User clicks at Login link(Scenario: User logged in insuccessfully),null,null,null
+
+
+# Created on 2017-08-16T10:55:51.690
+Unexpected IOException: 7,1,Scenario: User logged in insuccessfully,* User clicks at Login link(Scenario: User logged in insuccessfully),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=60.0.3112.90)\000A  (Driver info: chromedriver=2.29.461585 (0be2cd95f834e9ee7c46bcc7cf405b483f5ae83b)\002Cplatform=Mac OS X 10.12.3 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 5 milliseconds\000ABuild info: version: '3.4.0'\002C revision: 'unknown'\002C time: 'unknown'\000ASystem info: host: 'Tatras-MacBook-Pro.local'\002C ip: 'fd1c:6758:6f9b:da00:b5f5:9322:24af:69b2'\002C os.name: 'Mac OS X'\002C os.arch: 'x86_64'\002C os.version: '10.12.3'\002C java.version: '1.8.0_111'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities [{applicationCacheEnabled=false\002C rotatable=false\002C mobileEmulationEnabled=false\002C networkConnectionEnabled=false\002C chrome={chromedriverVersion=2.29.461585 (0be2cd95f834e9ee7c46bcc7cf405b483f5ae83b)\002C userDataDir=/var/folders/45/bxxg74bn3dncx0gcy47lc1300000gn/T/.org.chromium.Chromium.airtYp}\002C takesHeapSnapshot=true\002C pageLoadStrategy=normal\002C databaseEnabled=false\002C handlesAlerts=true\002C hasTouchScreen=false\002C version=60.0.3112.90\002C platform=MAC\002C browserConnectionEnabled=false\002C nativeEvents=true\002C acceptSslCerts=true\002C locationContextEnabled=true\002C webStorageEnabled=true\002C browserName=chrome\002C takesScreenshot=true\002C javascriptEnabled=true\002C cssSelectorsEnabled=true\002C unexpectedAlertBehaviour=}]\000ASession ID: 118ae1400b34bc5965e4fe9a1e3a1db7\000A*** Element info: {Using=class name\002C value=navbar-nav},null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=60.0.3112.90)\000A  (Driver info: chromedriver=2.29.461585 (0be2cd95f834e9ee7c46bcc7cf405b483f5ae83b)\002Cplatform=Mac OS X 10.12.3 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 5 milliseconds\000ABuild info: version: '3.4.0'\002C revision: 'unknown'\002C time: 'unknown'\000ASystem info: host: 'Tatras-MacBook-Pro.local'\002C ip: 'fd1c:6758:6f9b:da00:b5f5:9322:24af:69b2'\002C os.name: 'Mac OS X'\002C os.arch: 'x86_64'\002C os.version: '10.12.3'\002C java.version: '1.8.0_111'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities [{applicationCacheEnabled=false\002C rotatable=false\002C mobileEmulationEnabled=false\002C networkConnectionEnabled=false\002C chrome={chromedriverVersion=2.29.461585 (0be2cd95f834e9ee7c46bcc7cf405b483f5ae83b)\002C userDataDir=/var/folders/45/bxxg74bn3dncx0gcy47lc1300000gn/T/.org.chromium.Chromium.airtYp}\002C takesHeapSnapshot=true\002C pageLoadStrategy=normal\002C databaseEnabled=false\002C handlesAlerts=true\002C hasTouchScreen=false\002C version=60.0.3112.90\002C platform=MAC\002C browserConnectionEnabled=false\002C nativeEvents=true\002C acceptSslCerts=true\002C locationContextEnabled=true\002C webStorageEnabled=true\002C browserName=chrome\002C takesScreenshot=true\002C javascriptEnabled=true\002C cssSelectorsEnabled=true\002C unexpectedAlertBehaviour=}]\000ASession ID: 118ae1400b34bc5965e4fe9a1e3a1db7\000A*** Element info: {Using=class name\002C value=navbar-nav},no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=60.0.3112.90)\000A  (Driver info: chromedriver=2.29.461585 (0be2cd95f834e9ee7c46bcc7cf405b483f5ae83b)\002Cplatform=Mac OS X 10.12.3 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 5 milliseconds\000ABuild info: version: '3.4.0'\002C revision: 'unknown'\002C time: 'unknown'\000ASystem info: host: 'Tatras-MacBook-Pro.local'\002C ip: 'fd1c:6758:6f9b:da00:b5f5:9322:24af:69b2'\002C os.name: 'Mac OS X'\002C os.arch: 'x86_64'\002C os.version: '10.12.3'\002C java.version: '1.8.0_111'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities [{applicationCacheEnabled=false\002C rotatable=false\002C mobileEmulationEnabled=false\002C networkConnectionEnabled=false\002C chrome={chromedriverVersion=2.29.461585 (0be2cd95f834e9ee7c46bcc7cf405b483f5ae83b)\002C userDataDir=/var/folders/45/bxxg74bn3dncx0gcy47lc1300000gn/T/.org.chromium.Chromium.airtYp}\002C takesHeapSnapshot=true\002C pageLoadStrategy=normal\002C databaseEnabled=false\002C handlesAlerts=true\002C hasTouchScreen=false\002C version=60.0.3112.90\002C platform=MAC\002C browserConnectionEnabled=false\002C nativeEvents=true\002C acceptSslCerts=true\002C locationContextEnabled=true\002C webStorageEnabled=true\002C browserName=chrome\002C takesScreenshot=true\002C javascriptEnabled=true\002C cssSelectorsEnabled=true\002C unexpectedAlertBehaviour=}]\000ASession ID: 118ae1400b34bc5965e4fe9a1e3a1db7\000A*** Element info: {Using=class name\002C value=navbar-nav},org.openqa.selenium.NoSuchWindowException: \000Ano such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=60.0.3112.90)\000A  (Driver info: chromedriver=2.29.461585 (0be2cd95f834e9ee7c46bcc7cf405b483f5ae83b)\002Cplatform=Mac OS X 10.12.3 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 5 milliseconds\000ABuild info: version: '3.4.0'\002C revision: 'unknown'\002C time: 'unknown'\000ASystem info: host: 'Tatras-MacBook-Pro.local'\002C ip: 'fd1c:6758:6f9b:da00:b5f5:9322:24af:69b2'\002C os.name: 'Mac OS X'\002C os.arch: 'x86_64'\002C os.version: '10.12.3'\002C java.version: '1.8.0_111'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities [{applicationCacheEnabled=false\002C rotatable=false\002C mobileEmulationEnabled=false\002C networkConnectionEnabled=false\002C chrome={chromedriverVersion=2.29.461585 (0be2cd95f834e9ee7c46bcc7cf405b483f5ae83b)\002C userDataDir=/var/folders/45/bxxg74bn3dncx0gcy47lc1300000gn/T/.org.chromium.Chromium.airtYp}\002C takesHeapSnapshot=true\002C pageLoadStrategy=normal\002C databaseEnabled=false\002C handlesAlerts=true\002C hasTouchScreen=false\002C version=60.0.3112.90\002C platform=MAC\002C browserConnectionEnabled=false\002C nativeEvents=true\002C acceptSslCerts=true\002C locationContextEnabled=true\002C webStorageEnabled=true\002C browserName=chrome\002C takesScreenshot=true\002C javascriptEnabled=true\002C cssSelectorsEnabled=true\002C unexpectedAlertBehaviour=}]\000ASession ID: 118ae1400b34bc5965e4fe9a1e3a1db7\000A*** Element info: {Using=class name\002C value=navbar-nav}\000A
+
+
+# Created on 2017-08-16T10:55:51.691
+Unexpected IOException: 7,1,Scenario: User logged in insuccessfully,Scenario: User logged in insuccessfully,null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=60.0.3112.90)\000A  (Driver info: chromedriver=2.29.461585 (0be2cd95f834e9ee7c46bcc7cf405b483f5ae83b)\002Cplatform=Mac OS X 10.12.3 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 5 milliseconds\000ABuild info: version: '3.4.0'\002C revision: 'unknown'\002C time: 'unknown'\000ASystem info: host: 'Tatras-MacBook-Pro.local'\002C ip: 'fd1c:6758:6f9b:da00:b5f5:9322:24af:69b2'\002C os.name: 'Mac OS X'\002C os.arch: 'x86_64'\002C os.version: '10.12.3'\002C java.version: '1.8.0_111'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities [{applicationCacheEnabled=false\002C rotatable=false\002C mobileEmulationEnabled=false\002C networkConnectionEnabled=false\002C chrome={chromedriverVersion=2.29.461585 (0be2cd95f834e9ee7c46bcc7cf405b483f5ae83b)\002C userDataDir=/var/folders/45/bxxg74bn3dncx0gcy47lc1300000gn/T/.org.chromium.Chromium.airtYp}\002C takesHeapSnapshot=true\002C pageLoadStrategy=normal\002C databaseEnabled=false\002C handlesAlerts=true\002C hasTouchScreen=false\002C version=60.0.3112.90\002C platform=MAC\002C browserConnectionEnabled=false\002C nativeEvents=true\002C acceptSslCerts=true\002C locationContextEnabled=true\002C webStorageEnabled=true\002C browserName=chrome\002C takesScreenshot=true\002C javascriptEnabled=true\002C cssSelectorsEnabled=true\002C unexpectedAlertBehaviour=}]\000ASession ID: 118ae1400b34bc5965e4fe9a1e3a1db7\000A*** Element info: {Using=class name\002C value=navbar-nav},null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=60.0.3112.90)\000A  (Driver info: chromedriver=2.29.461585 (0be2cd95f834e9ee7c46bcc7cf405b483f5ae83b)\002Cplatform=Mac OS X 10.12.3 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 5 milliseconds\000ABuild info: version: '3.4.0'\002C revision: 'unknown'\002C time: 'unknown'\000ASystem info: host: 'Tatras-MacBook-Pro.local'\002C ip: 'fd1c:6758:6f9b:da00:b5f5:9322:24af:69b2'\002C os.name: 'Mac OS X'\002C os.arch: 'x86_64'\002C os.version: '10.12.3'\002C java.version: '1.8.0_111'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities [{applicationCacheEnabled=false\002C rotatable=false\002C mobileEmulationEnabled=false\002C networkConnectionEnabled=false\002C chrome={chromedriverVersion=2.29.461585 (0be2cd95f834e9ee7c46bcc7cf405b483f5ae83b)\002C userDataDir=/var/folders/45/bxxg74bn3dncx0gcy47lc1300000gn/T/.org.chromium.Chromium.airtYp}\002C takesHeapSnapshot=true\002C pageLoadStrategy=normal\002C databaseEnabled=false\002C handlesAlerts=true\002C hasTouchScreen=false\002C version=60.0.3112.90\002C platform=MAC\002C browserConnectionEnabled=false\002C nativeEvents=true\002C acceptSslCerts=true\002C locationContextEnabled=true\002C webStorageEnabled=true\002C browserName=chrome\002C takesScreenshot=true\002C javascriptEnabled=true\002C cssSelectorsEnabled=true\002C unexpectedAlertBehaviour=}]\000ASession ID: 118ae1400b34bc5965e4fe9a1e3a1db7\000A*** Element info: {Using=class name\002C value=navbar-nav},no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=60.0.3112.90)\000A  (Driver info: chromedriver=2.29.461585 (0be2cd95f834e9ee7c46bcc7cf405b483f5ae83b)\002Cplatform=Mac OS X 10.12.3 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 5 milliseconds\000ABuild info: version: '3.4.0'\002C revision: 'unknown'\002C time: 'unknown'\000ASystem info: host: 'Tatras-MacBook-Pro.local'\002C ip: 'fd1c:6758:6f9b:da00:b5f5:9322:24af:69b2'\002C os.name: 'Mac OS X'\002C os.arch: 'x86_64'\002C os.version: '10.12.3'\002C java.version: '1.8.0_111'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities [{applicationCacheEnabled=false\002C rotatable=false\002C mobileEmulationEnabled=false\002C networkConnectionEnabled=false\002C chrome={chromedriverVersion=2.29.461585 (0be2cd95f834e9ee7c46bcc7cf405b483f5ae83b)\002C userDataDir=/var/folders/45/bxxg74bn3dncx0gcy47lc1300000gn/T/.org.chromium.Chromium.airtYp}\002C takesHeapSnapshot=true\002C pageLoadStrategy=normal\002C databaseEnabled=false\002C handlesAlerts=true\002C hasTouchScreen=false\002C version=60.0.3112.90\002C platform=MAC\002C browserConnectionEnabled=false\002C nativeEvents=true\002C acceptSslCerts=true\002C locationContextEnabled=true\002C webStorageEnabled=true\002C browserName=chrome\002C takesScreenshot=true\002C javascriptEnabled=true\002C cssSelectorsEnabled=true\002C unexpectedAlertBehaviour=}]\000ASession ID: 118ae1400b34bc5965e4fe9a1e3a1db7\000A*** Element info: {Using=class name\002C value=navbar-nav},org.openqa.selenium.NoSuchWindowException: \000Ano such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=60.0.3112.90)\000A  (Driver info: chromedriver=2.29.461585 (0be2cd95f834e9ee7c46bcc7cf405b483f5ae83b)\002Cplatform=Mac OS X 10.12.3 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 5 milliseconds\000ABuild info: version: '3.4.0'\002C revision: 'unknown'\002C time: 'unknown'\000ASystem info: host: 'Tatras-MacBook-Pro.local'\002C ip: 'fd1c:6758:6f9b:da00:b5f5:9322:24af:69b2'\002C os.name: 'Mac OS X'\002C os.arch: 'x86_64'\002C os.version: '10.12.3'\002C java.version: '1.8.0_111'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities [{applicationCacheEnabled=false\002C rotatable=false\002C mobileEmulationEnabled=false\002C networkConnectionEnabled=false\002C chrome={chromedriverVersion=2.29.461585 (0be2cd95f834e9ee7c46bcc7cf405b483f5ae83b)\002C userDataDir=/var/folders/45/bxxg74bn3dncx0gcy47lc1300000gn/T/.org.chromium.Chromium.airtYp}\002C takesHeapSnapshot=true\002C pageLoadStrategy=normal\002C databaseEnabled=false\002C handlesAlerts=true\002C hasTouchScreen=false\002C version=60.0.3112.90\002C platform=MAC\002C browserConnectionEnabled=false\002C nativeEvents=true\002C acceptSslCerts=true\002C locationContextEnabled=true\002C webStorageEnabled=true\002C browserName=chrome\002C takesScreenshot=true\002C javascriptEnabled=true\002C cssSelectorsEnabled=true\002C unexpectedAlertBehaviour=}]\000ASession ID: 118ae1400b34bc5965e4fe9a1e3a1db7\000A*** Element info: {Using=class name\002C value=navbar-nav}\000A
+
+
+# Created on 2017-08-16T10:55:51.692
+Unexpected IOException: 9,1,Scenario: User logged in insuccessfully,* User enters incorrect username and password(Scenario: User logged in insuccessfully),null,null,null
+
+
+# Created on 2017-08-16T10:55:51.693
+Unexpected IOException: 9,1,Scenario: User logged in insuccessfully,* User clicks Login button(Scenario: User logged in insuccessfully),null,null,null
+
+
+# Created on 2017-08-16T10:55:51.693
+Unexpected IOException: 9,1,Scenario: User logged in insuccessfully,* The system will give a validation incorrect credentials(Scenario: User logged in insuccessfully),null,null,null
+
+
+# Created on 2017-08-16T10:55:51.694
+Unexpected IOException: 9,1,Scenario: User logged in insuccessfully,* Close the browser(Scenario: User logged in insuccessfully),null,null,null
+
+
+# Created on 2017-08-16T10:55:51.694
+Unexpected IOException: 5,1,Scenario: User logged in successfully,Scenario: User logged in successfully,null,null,null
+
+
+# Created on 2017-08-16T10:55:51.709
+Unexpected IOException with stream: S
+
+# Created on 2017-08-16T10:55:51.709
+Unexpected IOException with stream: t
+
+# Created on 2017-08-16T10:55:51.710
+Unexpected IOException with stream: a
+
+# Created on 2017-08-16T10:55:51.710
+Unexpected IOException with stream: r
+
+# Created on 2017-08-16T10:55:51.710
+Unexpected IOException with stream: t
+
+# Created on 2017-08-16T10:55:51.711
+Unexpected IOException with stream: i
+
+# Created on 2017-08-16T10:55:51.711
+Unexpected IOException with stream: n
+
+# Created on 2017-08-16T10:55:51.711
+Unexpected IOException with stream: g
+
+# Created on 2017-08-16T10:55:51.711
+Unexpected IOException with stream:  
+
+# Created on 2017-08-16T10:55:51.712
+Unexpected IOException with stream: C
+
+# Created on 2017-08-16T10:55:51.712
+Unexpected IOException with stream: h
+
+# Created on 2017-08-16T10:55:51.712
+Unexpected IOException with stream: r
+
+# Created on 2017-08-16T10:55:51.712
+Unexpected IOException with stream: o
+
+# Created on 2017-08-16T10:55:51.713
+Unexpected IOException with stream: m
+
+# Created on 2017-08-16T10:55:51.713
+Unexpected IOException with stream: e
+
+# Created on 2017-08-16T10:55:51.713
+Unexpected IOException with stream: D
+
+# Created on 2017-08-16T10:55:51.713
+Unexpected IOException with stream: r
+
+# Created on 2017-08-16T10:55:51.713
+Unexpected IOException with stream: i
+
+# Created on 2017-08-16T10:55:51.714
+Unexpected IOException with stream: v
+
+# Created on 2017-08-16T10:55:51.714
+Unexpected IOException with stream: e
+
+# Created on 2017-08-16T10:55:51.714
+Unexpected IOException with stream: r
+
+# Created on 2017-08-16T10:55:51.714
+Unexpected IOException with stream:  
+
+# Created on 2017-08-16T10:55:51.714
+Unexpected IOException with stream: 2
+
+# Created on 2017-08-16T10:55:51.715
+Unexpected IOException with stream: .
+
+# Created on 2017-08-16T10:55:51.715
+Unexpected IOException with stream: 2
+
+# Created on 2017-08-16T10:55:51.715
+Unexpected IOException with stream: 9
+
+# Created on 2017-08-16T10:55:51.715
+Unexpected IOException with stream: .
+
+# Created on 2017-08-16T10:55:51.715
+Unexpected IOException with stream: 4
+
+# Created on 2017-08-16T10:55:51.716
+Unexpected IOException with stream: 6
+
+# Created on 2017-08-16T10:55:51.716
+Unexpected IOException with stream: 1
+
+# Created on 2017-08-16T10:55:51.716
+Unexpected IOException with stream: 5
+
+# Created on 2017-08-16T10:55:51.716
+Unexpected IOException with stream: 8
+
+# Created on 2017-08-16T10:55:51.716
+Unexpected IOException with stream: 5
+
+# Created on 2017-08-16T10:55:51.717
+Unexpected IOException with stream:  
+
+# Created on 2017-08-16T10:55:51.717
+Unexpected IOException with stream: (
+
+# Created on 2017-08-16T10:55:51.717
+Unexpected IOException with stream: 0
+
+# Created on 2017-08-16T10:55:51.717
+Unexpected IOException with stream: b
+
+# Created on 2017-08-16T10:55:51.717
+Unexpected IOException with stream: e
+
+# Created on 2017-08-16T10:55:51.718
+Unexpected IOException with stream: 2
+
+# Created on 2017-08-16T10:55:51.718
+Unexpected IOException with stream: c
+
+# Created on 2017-08-16T10:55:51.718
+Unexpected IOException with stream: d
+
+# Created on 2017-08-16T10:55:51.718
+Unexpected IOException with stream: 9
+
+# Created on 2017-08-16T10:55:51.718
+Unexpected IOException with stream: 5
+
+# Created on 2017-08-16T10:55:51.718
+Unexpected IOException with stream: f
+
+# Created on 2017-08-16T10:55:51.719
+Unexpected IOException with stream: 8
+
+# Created on 2017-08-16T10:55:51.719
+Unexpected IOException with stream: 3
+
+# Created on 2017-08-16T10:55:51.719
+Unexpected IOException with stream: 4
+
+# Created on 2017-08-16T10:55:51.719
+Unexpected IOException with stream: e
+
+# Created on 2017-08-16T10:55:51.719
+Unexpected IOException with stream: 9
+
+# Created on 2017-08-16T10:55:51.720
+Unexpected IOException with stream: e
+
+# Created on 2017-08-16T10:55:51.720
+Unexpected IOException with stream: e
+
+# Created on 2017-08-16T10:55:51.720
+Unexpected IOException with stream: 7
+
+# Created on 2017-08-16T10:55:51.720
+Unexpected IOException with stream: c
+
+# Created on 2017-08-16T10:55:51.720
+Unexpected IOException with stream: 4
+
+# Created on 2017-08-16T10:55:51.721
+Unexpected IOException with stream: 6
+
+# Created on 2017-08-16T10:55:51.721
+Unexpected IOException with stream: b
+
+# Created on 2017-08-16T10:55:51.721
+Unexpected IOException with stream: c
+
+# Created on 2017-08-16T10:55:51.721
+Unexpected IOException with stream: c
+
+# Created on 2017-08-16T10:55:51.721
+Unexpected IOException with stream: 7
+
+# Created on 2017-08-16T10:55:51.721
+Unexpected IOException with stream: c
+
+# Created on 2017-08-16T10:55:51.722
+Unexpected IOException with stream: f
+
+# Created on 2017-08-16T10:55:51.722
+Unexpected IOException with stream: 4
+
+# Created on 2017-08-16T10:55:51.722
+Unexpected IOException with stream: 0
+
+# Created on 2017-08-16T10:55:51.722
+Unexpected IOException with stream: 5
+
+# Created on 2017-08-16T10:55:51.722
+Unexpected IOException with stream: b
+
+# Created on 2017-08-16T10:55:51.722
+Unexpected IOException with stream: 4
+
+# Created on 2017-08-16T10:55:51.723
+Unexpected IOException with stream: 8
+
+# Created on 2017-08-16T10:55:51.723
+Unexpected IOException with stream: 3
+
+# Created on 2017-08-16T10:55:51.723
+Unexpected IOException with stream: f
+
+# Created on 2017-08-16T10:55:51.723
+Unexpected IOException with stream: 5
+
+# Created on 2017-08-16T10:55:51.723
+Unexpected IOException with stream: a
+
+# Created on 2017-08-16T10:55:51.724
+Unexpected IOException with stream: e
+
+# Created on 2017-08-16T10:55:51.724
+Unexpected IOException with stream: 8
+
+# Created on 2017-08-16T10:55:51.724
+Unexpected IOException with stream: 3
+
+# Created on 2017-08-16T10:55:51.724
+Unexpected IOException with stream: b
+
+# Created on 2017-08-16T10:55:51.724
+Unexpected IOException with stream: )
+
+# Created on 2017-08-16T10:55:51.725
+Unexpected IOException with stream:  
+
+# Created on 2017-08-16T10:55:51.725
+Unexpected IOException with stream: o
+
+# Created on 2017-08-16T10:55:51.725
+Unexpected IOException with stream: n
+
+# Created on 2017-08-16T10:55:51.725
+Unexpected IOException with stream:  
+
+# Created on 2017-08-16T10:55:51.725
+Unexpected IOException with stream: p
+
+# Created on 2017-08-16T10:55:51.725
+Unexpected IOException with stream: o
+
+# Created on 2017-08-16T10:55:51.726
+Unexpected IOException with stream: r
+
+# Created on 2017-08-16T10:55:51.726
+Unexpected IOException with stream: t
+
+# Created on 2017-08-16T10:55:51.726
+Unexpected IOException with stream:  
+
+# Created on 2017-08-16T10:55:51.726
+Unexpected IOException with stream: 1
+
+# Created on 2017-08-16T10:55:51.726
+Unexpected IOException with stream: 7
+
+# Created on 2017-08-16T10:55:51.727
+Unexpected IOException with stream: 1
+
+# Created on 2017-08-16T10:55:51.727
+Unexpected IOException with stream: 2
+
+# Created on 2017-08-16T10:55:51.727
+Unexpected IOException with stream: 2
+
+# Created on 2017-08-16T10:55:51.727
+Unexpected IOException with stream: 
+
+
+# Created on 2017-08-16T10:55:51.727
+Unexpected IOException with stream: O
+
+# Created on 2017-08-16T10:55:51.727
+Unexpected IOException with stream: n
+
+# Created on 2017-08-16T10:55:51.728
+Unexpected IOException with stream: l
+
+# Created on 2017-08-16T10:55:51.728
+Unexpected IOException with stream: y
+
+# Created on 2017-08-16T10:55:51.728
+Unexpected IOException with stream:  
+
+# Created on 2017-08-16T10:55:51.728
+Unexpected IOException with stream: l
+
+# Created on 2017-08-16T10:55:51.728
+Unexpected IOException with stream: o
+
+# Created on 2017-08-16T10:55:51.729
+Unexpected IOException with stream: c
+
+# Created on 2017-08-16T10:55:51.729
+Unexpected IOException with stream: a
+
+# Created on 2017-08-16T10:55:51.729
+Unexpected IOException with stream: l
+
+# Created on 2017-08-16T10:55:51.729
+Unexpected IOException with stream:  
+
+# Created on 2017-08-16T10:55:51.729
+Unexpected IOException with stream: c
+
+# Created on 2017-08-16T10:55:51.730
+Unexpected IOException with stream: o
+
+# Created on 2017-08-16T10:55:51.730
+Unexpected IOException with stream: n
+
+# Created on 2017-08-16T10:55:51.730
+Unexpected IOException with stream: n
+
+# Created on 2017-08-16T10:55:51.730
+Unexpected IOException with stream: e
+
+# Created on 2017-08-16T10:55:51.730
+Unexpected IOException with stream: c
+
+# Created on 2017-08-16T10:55:51.731
+Unexpected IOException with stream: t
+
+# Created on 2017-08-16T10:55:51.731
+Unexpected IOException with stream: i
+
+# Created on 2017-08-16T10:55:51.731
+Unexpected IOException with stream: o
+
+# Created on 2017-08-16T10:55:51.731
+Unexpected IOException with stream: n
+
+# Created on 2017-08-16T10:55:51.731
+Unexpected IOException with stream: s
+
+# Created on 2017-08-16T10:55:51.732
+Unexpected IOException with stream:  
+
+# Created on 2017-08-16T10:55:51.732
+Unexpected IOException with stream: a
+
+# Created on 2017-08-16T10:55:51.732
+Unexpected IOException with stream: r
+
+# Created on 2017-08-16T10:55:51.732
+Unexpected IOException with stream: e
+
+# Created on 2017-08-16T10:55:51.732
+Unexpected IOException with stream:  
+
+# Created on 2017-08-16T10:55:51.733
+Unexpected IOException with stream: a
+
+# Created on 2017-08-16T10:55:51.733
+Unexpected IOException with stream: l
+
+# Created on 2017-08-16T10:55:51.733
+Unexpected IOException with stream: l
+
+# Created on 2017-08-16T10:55:51.733
+Unexpected IOException with stream: o
+
+# Created on 2017-08-16T10:55:51.733
+Unexpected IOException with stream: w
+
+# Created on 2017-08-16T10:55:51.733
+Unexpected IOException with stream: e
+
+# Created on 2017-08-16T10:55:51.734
+Unexpected IOException with stream: d
+
+# Created on 2017-08-16T10:55:51.734
+Unexpected IOException with stream: .
+
+# Created on 2017-08-16T10:55:51.734
+Unexpected IOException with stream: 
+
+
+# Created on 2017-08-16T10:55:52.313
+Unexpected IOException with stream: Aug 16, 2017 10:55:52 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+
+
+# Created on 2017-08-16T10:55:52.324
+Unexpected IOException: 5,1,Scenario: User logged in successfully,* Open the browser(Scenario: User logged in successfully),null,null,null
+
+
+# Created on 2017-08-16T10:55:52.325
+Unexpected IOException: 6,1,Scenario: User logged in successfully,* Open the browser(Scenario: User logged in successfully),null,null,null
+
+
+# Created on 2017-08-16T10:55:55.548
+Unexpected IOException: 5,1,Scenario: User logged in successfully,* User navigates to 'http://qc.ionhands-sa.com/'(Scenario: User logged in successfully),null,null,null
+
+
+# Created on 2017-08-16T10:55:55.548
+Unexpected IOException: 6,1,Scenario: User logged in successfully,* User navigates to 'http://qc.ionhands-sa.com/'(Scenario: User logged in successfully),null,null,null
+
+
+# Created on 2017-08-16T10:55:58.553
+Unexpected IOException: 5,1,Scenario: User logged in successfully,* User clicks at Login link(Scenario: User logged in successfully),null,null,null
+
+
+# Created on 2017-08-16T10:55:58.554
+Unexpected IOException: 7,1,Scenario: User logged in successfully,* User clicks at Login link(Scenario: User logged in successfully),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=60.0.3112.90)\000A  (Driver info: chromedriver=2.29.461585 (0be2cd95f834e9ee7c46bcc7cf405b483f5ae83b)\002Cplatform=Mac OS X 10.12.3 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 3 milliseconds\000ABuild info: version: '3.4.0'\002C revision: 'unknown'\002C time: 'unknown'\000ASystem info: host: 'Tatras-MacBook-Pro.local'\002C ip: 'fd1c:6758:6f9b:da00:b5f5:9322:24af:69b2'\002C os.name: 'Mac OS X'\002C os.arch: 'x86_64'\002C os.version: '10.12.3'\002C java.version: '1.8.0_111'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities [{applicationCacheEnabled=false\002C rotatable=false\002C mobileEmulationEnabled=false\002C networkConnectionEnabled=false\002C chrome={chromedriverVersion=2.29.461585 (0be2cd95f834e9ee7c46bcc7cf405b483f5ae83b)\002C userDataDir=/var/folders/45/bxxg74bn3dncx0gcy47lc1300000gn/T/.org.chromium.Chromium.vYCJB2}\002C takesHeapSnapshot=true\002C pageLoadStrategy=normal\002C databaseEnabled=false\002C handlesAlerts=true\002C hasTouchScreen=false\002C version=60.0.3112.90\002C platform=MAC\002C browserConnectionEnabled=false\002C nativeEvents=true\002C acceptSslCerts=true\002C locationContextEnabled=true\002C webStorageEnabled=true\002C browserName=chrome\002C takesScreenshot=true\002C javascriptEnabled=true\002C cssSelectorsEnabled=true\002C unexpectedAlertBehaviour=}]\000ASession ID: f2dcf52de3d978c838aaebb649e4f729\000A*** Element info: {Using=class name\002C value=navbar-nav},null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=60.0.3112.90)\000A  (Driver info: chromedriver=2.29.461585 (0be2cd95f834e9ee7c46bcc7cf405b483f5ae83b)\002Cplatform=Mac OS X 10.12.3 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 3 milliseconds\000ABuild info: version: '3.4.0'\002C revision: 'unknown'\002C time: 'unknown'\000ASystem info: host: 'Tatras-MacBook-Pro.local'\002C ip: 'fd1c:6758:6f9b:da00:b5f5:9322:24af:69b2'\002C os.name: 'Mac OS X'\002C os.arch: 'x86_64'\002C os.version: '10.12.3'\002C java.version: '1.8.0_111'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities [{applicationCacheEnabled=false\002C rotatable=false\002C mobileEmulationEnabled=false\002C networkConnectionEnabled=false\002C chrome={chromedriverVersion=2.29.461585 (0be2cd95f834e9ee7c46bcc7cf405b483f5ae83b)\002C userDataDir=/var/folders/45/bxxg74bn3dncx0gcy47lc1300000gn/T/.org.chromium.Chromium.vYCJB2}\002C takesHeapSnapshot=true\002C pageLoadStrategy=normal\002C databaseEnabled=false\002C handlesAlerts=true\002C hasTouchScreen=false\002C version=60.0.3112.90\002C platform=MAC\002C browserConnectionEnabled=false\002C nativeEvents=true\002C acceptSslCerts=true\002C locationContextEnabled=true\002C webStorageEnabled=true\002C browserName=chrome\002C takesScreenshot=true\002C javascriptEnabled=true\002C cssSelectorsEnabled=true\002C unexpectedAlertBehaviour=}]\000ASession ID: f2dcf52de3d978c838aaebb649e4f729\000A*** Element info: {Using=class name\002C value=navbar-nav},no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=60.0.3112.90)\000A  (Driver info: chromedriver=2.29.461585 (0be2cd95f834e9ee7c46bcc7cf405b483f5ae83b)\002Cplatform=Mac OS X 10.12.3 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 3 milliseconds\000ABuild info: version: '3.4.0'\002C revision: 'unknown'\002C time: 'unknown'\000ASystem info: host: 'Tatras-MacBook-Pro.local'\002C ip: 'fd1c:6758:6f9b:da00:b5f5:9322:24af:69b2'\002C os.name: 'Mac OS X'\002C os.arch: 'x86_64'\002C os.version: '10.12.3'\002C java.version: '1.8.0_111'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities [{applicationCacheEnabled=false\002C rotatable=false\002C mobileEmulationEnabled=false\002C networkConnectionEnabled=false\002C chrome={chromedriverVersion=2.29.461585 (0be2cd95f834e9ee7c46bcc7cf405b483f5ae83b)\002C userDataDir=/var/folders/45/bxxg74bn3dncx0gcy47lc1300000gn/T/.org.chromium.Chromium.vYCJB2}\002C takesHeapSnapshot=true\002C pageLoadStrategy=normal\002C databaseEnabled=false\002C handlesAlerts=true\002C hasTouchScreen=false\002C version=60.0.3112.90\002C platform=MAC\002C browserConnectionEnabled=false\002C nativeEvents=true\002C acceptSslCerts=true\002C locationContextEnabled=true\002C webStorageEnabled=true\002C browserName=chrome\002C takesScreenshot=true\002C javascriptEnabled=true\002C cssSelectorsEnabled=true\002C unexpectedAlertBehaviour=}]\000ASession ID: f2dcf52de3d978c838aaebb649e4f729\000A*** Element info: {Using=class name\002C value=navbar-nav},org.openqa.selenium.NoSuchWindowException: \000Ano such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=60.0.3112.90)\000A  (Driver info: chromedriver=2.29.461585 (0be2cd95f834e9ee7c46bcc7cf405b483f5ae83b)\002Cplatform=Mac OS X 10.12.3 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 3 milliseconds\000ABuild info: version: '3.4.0'\002C revision: 'unknown'\002C time: 'unknown'\000ASystem info: host: 'Tatras-MacBook-Pro.local'\002C ip: 'fd1c:6758:6f9b:da00:b5f5:9322:24af:69b2'\002C os.name: 'Mac OS X'\002C os.arch: 'x86_64'\002C os.version: '10.12.3'\002C java.version: '1.8.0_111'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities [{applicationCacheEnabled=false\002C rotatable=false\002C mobileEmulationEnabled=false\002C networkConnectionEnabled=false\002C chrome={chromedriverVersion=2.29.461585 (0be2cd95f834e9ee7c46bcc7cf405b483f5ae83b)\002C userDataDir=/var/folders/45/bxxg74bn3dncx0gcy47lc1300000gn/T/.org.chromium.Chromium.vYCJB2}\002C takesHeapSnapshot=true\002C pageLoadStrategy=normal\002C databaseEnabled=false\002C handlesAlerts=true\002C hasTouchScreen=false\002C version=60.0.3112.90\002C platform=MAC\002C browserConnectionEnabled=false\002C nativeEvents=true\002C acceptSslCerts=true\002C locationContextEnabled=true\002C webStorageEnabled=true\002C browserName=chrome\002C takesScreenshot=true\002C javascriptEnabled=true\002C cssSelectorsEnabled=true\002C unexpectedAlertBehaviour=}]\000ASession ID: f2dcf52de3d978c838aaebb649e4f729\000A*** Element info: {Using=class name\002C value=navbar-nav}\000A
+
+
+# Created on 2017-08-16T10:55:58.556
+Unexpected IOException: 7,1,Scenario: User logged in successfully,Scenario: User logged in successfully,null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=60.0.3112.90)\000A  (Driver info: chromedriver=2.29.461585 (0be2cd95f834e9ee7c46bcc7cf405b483f5ae83b)\002Cplatform=Mac OS X 10.12.3 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 3 milliseconds\000ABuild info: version: '3.4.0'\002C revision: 'unknown'\002C time: 'unknown'\000ASystem info: host: 'Tatras-MacBook-Pro.local'\002C ip: 'fd1c:6758:6f9b:da00:b5f5:9322:24af:69b2'\002C os.name: 'Mac OS X'\002C os.arch: 'x86_64'\002C os.version: '10.12.3'\002C java.version: '1.8.0_111'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities [{applicationCacheEnabled=false\002C rotatable=false\002C mobileEmulationEnabled=false\002C networkConnectionEnabled=false\002C chrome={chromedriverVersion=2.29.461585 (0be2cd95f834e9ee7c46bcc7cf405b483f5ae83b)\002C userDataDir=/var/folders/45/bxxg74bn3dncx0gcy47lc1300000gn/T/.org.chromium.Chromium.vYCJB2}\002C takesHeapSnapshot=true\002C pageLoadStrategy=normal\002C databaseEnabled=false\002C handlesAlerts=true\002C hasTouchScreen=false\002C version=60.0.3112.90\002C platform=MAC\002C browserConnectionEnabled=false\002C nativeEvents=true\002C acceptSslCerts=true\002C locationContextEnabled=true\002C webStorageEnabled=true\002C browserName=chrome\002C takesScreenshot=true\002C javascriptEnabled=true\002C cssSelectorsEnabled=true\002C unexpectedAlertBehaviour=}]\000ASession ID: f2dcf52de3d978c838aaebb649e4f729\000A*** Element info: {Using=class name\002C value=navbar-nav},null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=60.0.3112.90)\000A  (Driver info: chromedriver=2.29.461585 (0be2cd95f834e9ee7c46bcc7cf405b483f5ae83b)\002Cplatform=Mac OS X 10.12.3 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 3 milliseconds\000ABuild info: version: '3.4.0'\002C revision: 'unknown'\002C time: 'unknown'\000ASystem info: host: 'Tatras-MacBook-Pro.local'\002C ip: 'fd1c:6758:6f9b:da00:b5f5:9322:24af:69b2'\002C os.name: 'Mac OS X'\002C os.arch: 'x86_64'\002C os.version: '10.12.3'\002C java.version: '1.8.0_111'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities [{applicationCacheEnabled=false\002C rotatable=false\002C mobileEmulationEnabled=false\002C networkConnectionEnabled=false\002C chrome={chromedriverVersion=2.29.461585 (0be2cd95f834e9ee7c46bcc7cf405b483f5ae83b)\002C userDataDir=/var/folders/45/bxxg74bn3dncx0gcy47lc1300000gn/T/.org.chromium.Chromium.vYCJB2}\002C takesHeapSnapshot=true\002C pageLoadStrategy=normal\002C databaseEnabled=false\002C handlesAlerts=true\002C hasTouchScreen=false\002C version=60.0.3112.90\002C platform=MAC\002C browserConnectionEnabled=false\002C nativeEvents=true\002C acceptSslCerts=true\002C locationContextEnabled=true\002C webStorageEnabled=true\002C browserName=chrome\002C takesScreenshot=true\002C javascriptEnabled=true\002C cssSelectorsEnabled=true\002C unexpectedAlertBehaviour=}]\000ASession ID: f2dcf52de3d978c838aaebb649e4f729\000A*** Element info: {Using=class name\002C value=navbar-nav},no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=60.0.3112.90)\000A  (Driver info: chromedriver=2.29.461585 (0be2cd95f834e9ee7c46bcc7cf405b483f5ae83b)\002Cplatform=Mac OS X 10.12.3 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 3 milliseconds\000ABuild info: version: '3.4.0'\002C revision: 'unknown'\002C time: 'unknown'\000ASystem info: host: 'Tatras-MacBook-Pro.local'\002C ip: 'fd1c:6758:6f9b:da00:b5f5:9322:24af:69b2'\002C os.name: 'Mac OS X'\002C os.arch: 'x86_64'\002C os.version: '10.12.3'\002C java.version: '1.8.0_111'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities [{applicationCacheEnabled=false\002C rotatable=false\002C mobileEmulationEnabled=false\002C networkConnectionEnabled=false\002C chrome={chromedriverVersion=2.29.461585 (0be2cd95f834e9ee7c46bcc7cf405b483f5ae83b)\002C userDataDir=/var/folders/45/bxxg74bn3dncx0gcy47lc1300000gn/T/.org.chromium.Chromium.vYCJB2}\002C takesHeapSnapshot=true\002C pageLoadStrategy=normal\002C databaseEnabled=false\002C handlesAlerts=true\002C hasTouchScreen=false\002C version=60.0.3112.90\002C platform=MAC\002C browserConnectionEnabled=false\002C nativeEvents=true\002C acceptSslCerts=true\002C locationContextEnabled=true\002C webStorageEnabled=true\002C browserName=chrome\002C takesScreenshot=true\002C javascriptEnabled=true\002C cssSelectorsEnabled=true\002C unexpectedAlertBehaviour=}]\000ASession ID: f2dcf52de3d978c838aaebb649e4f729\000A*** Element info: {Using=class name\002C value=navbar-nav},org.openqa.selenium.NoSuchWindowException: \000Ano such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=60.0.3112.90)\000A  (Driver info: chromedriver=2.29.461585 (0be2cd95f834e9ee7c46bcc7cf405b483f5ae83b)\002Cplatform=Mac OS X 10.12.3 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 3 milliseconds\000ABuild info: version: '3.4.0'\002C revision: 'unknown'\002C time: 'unknown'\000ASystem info: host: 'Tatras-MacBook-Pro.local'\002C ip: 'fd1c:6758:6f9b:da00:b5f5:9322:24af:69b2'\002C os.name: 'Mac OS X'\002C os.arch: 'x86_64'\002C os.version: '10.12.3'\002C java.version: '1.8.0_111'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities [{applicationCacheEnabled=false\002C rotatable=false\002C mobileEmulationEnabled=false\002C networkConnectionEnabled=false\002C chrome={chromedriverVersion=2.29.461585 (0be2cd95f834e9ee7c46bcc7cf405b483f5ae83b)\002C userDataDir=/var/folders/45/bxxg74bn3dncx0gcy47lc1300000gn/T/.org.chromium.Chromium.vYCJB2}\002C takesHeapSnapshot=true\002C pageLoadStrategy=normal\002C databaseEnabled=false\002C handlesAlerts=true\002C hasTouchScreen=false\002C version=60.0.3112.90\002C platform=MAC\002C browserConnectionEnabled=false\002C nativeEvents=true\002C acceptSslCerts=true\002C locationContextEnabled=true\002C webStorageEnabled=true\002C browserName=chrome\002C takesScreenshot=true\002C javascriptEnabled=true\002C cssSelectorsEnabled=true\002C unexpectedAlertBehaviour=}]\000ASession ID: f2dcf52de3d978c838aaebb649e4f729\000A*** Element info: {Using=class name\002C value=navbar-nav}\000A
+
+
+# Created on 2017-08-16T10:55:58.557
+Unexpected IOException: 9,1,Scenario: User logged in successfully,* User enters correct username and password(Scenario: User logged in successfully),null,null,null
+
+
+# Created on 2017-08-16T10:55:58.557
+Unexpected IOException: 9,1,Scenario: User logged in successfully,* User clicks Login button(Scenario: User logged in successfully),null,null,null
+
+
+# Created on 2017-08-16T10:55:58.558
+Unexpected IOException: 9,1,Scenario: User logged in successfully,* The system will login the user to his dashboard as well(Scenario: User logged in successfully),null,null,null
+
+
+# Created on 2017-08-16T10:55:58.558
+Unexpected IOException: 9,1,Scenario: User logged in successfully,* Close the browser(Scenario: User logged in successfully),null,null,null
+
+
+# Created on 2017-08-16T10:55:58.558
+Unexpected IOException: 5,1,Scenario: Add an observer,Scenario: Add an observer,null,null,null
+
+
+# Created on 2017-08-16T10:55:58.572
+Unexpected IOException with stream: S
+
+# Created on 2017-08-16T10:55:58.573
+Unexpected IOException with stream: t
+
+# Created on 2017-08-16T10:55:58.573
+Unexpected IOException with stream: a
+
+# Created on 2017-08-16T10:55:58.573
+Unexpected IOException with stream: r
+
+# Created on 2017-08-16T10:55:58.573
+Unexpected IOException with stream: t
+
+# Created on 2017-08-16T10:55:58.573
+Unexpected IOException with stream: i
+
+# Created on 2017-08-16T10:55:58.574
+Unexpected IOException with stream: n
+
+# Created on 2017-08-16T10:55:58.574
+Unexpected IOException with stream: g
+
+# Created on 2017-08-16T10:55:58.574
+Unexpected IOException with stream:  
+
+# Created on 2017-08-16T10:55:58.574
+Unexpected IOException with stream: C
+
+# Created on 2017-08-16T10:55:58.574
+Unexpected IOException with stream: h
+
+# Created on 2017-08-16T10:55:58.575
+Unexpected IOException with stream: r
+
+# Created on 2017-08-16T10:55:58.575
+Unexpected IOException with stream: o
+
+# Created on 2017-08-16T10:55:58.575
+Unexpected IOException with stream: m
+
+# Created on 2017-08-16T10:55:58.575
+Unexpected IOException with stream: e
+
+# Created on 2017-08-16T10:55:58.575
+Unexpected IOException with stream: D
+
+# Created on 2017-08-16T10:55:58.576
+Unexpected IOException with stream: r
+
+# Created on 2017-08-16T10:55:58.576
+Unexpected IOException with stream: i
+
+# Created on 2017-08-16T10:55:58.576
+Unexpected IOException with stream: v
+
+# Created on 2017-08-16T10:55:58.576
+Unexpected IOException with stream: e
+
+# Created on 2017-08-16T10:55:58.576
+Unexpected IOException with stream: r
+
+# Created on 2017-08-16T10:55:58.576
+Unexpected IOException with stream:  
+
+# Created on 2017-08-16T10:55:58.576
+Unexpected IOException with stream: 2
+
+# Created on 2017-08-16T10:55:58.577
+Unexpected IOException with stream: .
+
+# Created on 2017-08-16T10:55:58.577
+Unexpected IOException with stream: 2
+
+# Created on 2017-08-16T10:55:58.577
+Unexpected IOException with stream: 9
+
+# Created on 2017-08-16T10:55:58.577
+Unexpected IOException with stream: .
+
+# Created on 2017-08-16T10:55:58.577
+Unexpected IOException with stream: 4
+
+# Created on 2017-08-16T10:55:58.577
+Unexpected IOException with stream: 6
+
+# Created on 2017-08-16T10:55:58.578
+Unexpected IOException with stream: 1
+
+# Created on 2017-08-16T10:55:58.578
+Unexpected IOException with stream: 5
+
+# Created on 2017-08-16T10:55:58.578
+Unexpected IOException with stream: 8
+
+# Created on 2017-08-16T10:55:58.578
+Unexpected IOException with stream: 5
+
+# Created on 2017-08-16T10:55:58.578
+Unexpected IOException with stream:  
+
+# Created on 2017-08-16T10:55:58.578
+Unexpected IOException with stream: (
+
+# Created on 2017-08-16T10:55:58.578
+Unexpected IOException with stream: 0
+
+# Created on 2017-08-16T10:55:58.578
+Unexpected IOException with stream: b
+
+# Created on 2017-08-16T10:55:58.579
+Unexpected IOException with stream: e
+
+# Created on 2017-08-16T10:55:58.579
+Unexpected IOException with stream: 2
+
+# Created on 2017-08-16T10:55:58.579
+Unexpected IOException with stream: c
+
+# Created on 2017-08-16T10:55:58.579
+Unexpected IOException with stream: d
+
+# Created on 2017-08-16T10:55:58.579
+Unexpected IOException with stream: 9
+
+# Created on 2017-08-16T10:55:58.579
+Unexpected IOException with stream: 5
+
+# Created on 2017-08-16T10:55:58.579
+Unexpected IOException with stream: f
+
+# Created on 2017-08-16T10:55:58.580
+Unexpected IOException with stream: 8
+
+# Created on 2017-08-16T10:55:58.580
+Unexpected IOException with stream: 3
+
+# Created on 2017-08-16T10:55:58.580
+Unexpected IOException with stream: 4
+
+# Created on 2017-08-16T10:55:58.580
+Unexpected IOException with stream: e
+
+# Created on 2017-08-16T10:55:58.580
+Unexpected IOException with stream: 9
+
+# Created on 2017-08-16T10:55:58.580
+Unexpected IOException with stream: e
+
+# Created on 2017-08-16T10:55:58.580
+Unexpected IOException with stream: e
+
+# Created on 2017-08-16T10:55:58.581
+Unexpected IOException with stream: 7
+
+# Created on 2017-08-16T10:55:58.581
+Unexpected IOException with stream: c
+
+# Created on 2017-08-16T10:55:58.581
+Unexpected IOException with stream: 4
+
+# Created on 2017-08-16T10:55:58.581
+Unexpected IOException with stream: 6
+
+# Created on 2017-08-16T10:55:58.581
+Unexpected IOException with stream: b
+
+# Created on 2017-08-16T10:55:58.581
+Unexpected IOException with stream: c
+
+# Created on 2017-08-16T10:55:58.581
+Unexpected IOException with stream: c
+
+# Created on 2017-08-16T10:55:58.581
+Unexpected IOException with stream: 7
+
+# Created on 2017-08-16T10:55:58.582
+Unexpected IOException with stream: c
+
+# Created on 2017-08-16T10:55:58.582
+Unexpected IOException with stream: f
+
+# Created on 2017-08-16T10:55:58.582
+Unexpected IOException with stream: 4
+
+# Created on 2017-08-16T10:55:58.582
+Unexpected IOException with stream: 0
+
+# Created on 2017-08-16T10:55:58.582
+Unexpected IOException with stream: 5
+
+# Created on 2017-08-16T10:55:58.582
+Unexpected IOException with stream: b
+
+# Created on 2017-08-16T10:55:58.583
+Unexpected IOException with stream: 4
+
+# Created on 2017-08-16T10:55:58.583
+Unexpected IOException with stream: 8
+
+# Created on 2017-08-16T10:55:58.583
+Unexpected IOException with stream: 3
+
+# Created on 2017-08-16T10:55:58.583
+Unexpected IOException with stream: f
+
+# Created on 2017-08-16T10:55:58.583
+Unexpected IOException with stream: 5
+
+# Created on 2017-08-16T10:55:58.583
+Unexpected IOException with stream: a
+
+# Created on 2017-08-16T10:55:58.583
+Unexpected IOException with stream: e
+
+# Created on 2017-08-16T10:55:58.584
+Unexpected IOException with stream: 8
+
+# Created on 2017-08-16T10:55:58.584
+Unexpected IOException with stream: 3
+
+# Created on 2017-08-16T10:55:58.584
+Unexpected IOException with stream: b
+
+# Created on 2017-08-16T10:55:58.584
+Unexpected IOException with stream: )
+
+# Created on 2017-08-16T10:55:58.584
+Unexpected IOException with stream:  
+
+# Created on 2017-08-16T10:55:58.585
+Unexpected IOException with stream: o
+
+# Created on 2017-08-16T10:55:58.585
+Unexpected IOException with stream: n
+
+# Created on 2017-08-16T10:55:58.585
+Unexpected IOException with stream:  
+
+# Created on 2017-08-16T10:55:58.585
+Unexpected IOException with stream: p
+
+# Created on 2017-08-16T10:55:58.585
+Unexpected IOException with stream: o
+
+# Created on 2017-08-16T10:55:58.585
+Unexpected IOException with stream: r
+
+# Created on 2017-08-16T10:55:58.586
+Unexpected IOException with stream: t
+
+# Created on 2017-08-16T10:55:58.586
+Unexpected IOException with stream:  
+
+# Created on 2017-08-16T10:55:58.586
+Unexpected IOException with stream: 4
+
+# Created on 2017-08-16T10:55:58.586
+Unexpected IOException with stream: 4
+
+# Created on 2017-08-16T10:55:58.586
+Unexpected IOException with stream: 8
+
+# Created on 2017-08-16T10:55:58.586
+Unexpected IOException with stream: 5
+
+# Created on 2017-08-16T10:55:58.587
+Unexpected IOException with stream: 9
+
+# Created on 2017-08-16T10:55:58.587
+Unexpected IOException with stream: 
+
+
+# Created on 2017-08-16T10:55:58.587
+Unexpected IOException with stream: O
+
+# Created on 2017-08-16T10:55:58.587
+Unexpected IOException with stream: n
+
+# Created on 2017-08-16T10:55:58.587
+Unexpected IOException with stream: l
+
+# Created on 2017-08-16T10:55:58.587
+Unexpected IOException with stream: y
+
+# Created on 2017-08-16T10:55:58.588
+Unexpected IOException with stream:  
+
+# Created on 2017-08-16T10:55:58.588
+Unexpected IOException with stream: l
+
+# Created on 2017-08-16T10:55:58.588
+Unexpected IOException with stream: o
+
+# Created on 2017-08-16T10:55:58.588
+Unexpected IOException with stream: c
+
+# Created on 2017-08-16T10:55:58.588
+Unexpected IOException with stream: a
+
+# Created on 2017-08-16T10:55:58.588
+Unexpected IOException with stream: l
+
+# Created on 2017-08-16T10:55:58.588
+Unexpected IOException with stream:  
+
+# Created on 2017-08-16T10:55:58.589
+Unexpected IOException with stream: c
+
+# Created on 2017-08-16T10:55:58.589
+Unexpected IOException with stream: o
+
+# Created on 2017-08-16T10:55:58.589
+Unexpected IOException with stream: n
+
+# Created on 2017-08-16T10:55:58.589
+Unexpected IOException with stream: n
+
+# Created on 2017-08-16T10:55:58.589
+Unexpected IOException with stream: e
+
+# Created on 2017-08-16T10:55:58.590
+Unexpected IOException with stream: c
+
+# Created on 2017-08-16T10:55:58.590
+Unexpected IOException with stream: t
+
+# Created on 2017-08-16T10:55:58.590
+Unexpected IOException with stream: i
+
+# Created on 2017-08-16T10:55:58.590
+Unexpected IOException with stream: o
+
+# Created on 2017-08-16T10:55:58.590
+Unexpected IOException with stream: n
+
+# Created on 2017-08-16T10:55:58.590
+Unexpected IOException with stream: s
+
+# Created on 2017-08-16T10:55:58.590
+Unexpected IOException with stream:  
+
+# Created on 2017-08-16T10:55:58.591
+Unexpected IOException with stream: a
+
+# Created on 2017-08-16T10:55:58.591
+Unexpected IOException with stream: r
+
+# Created on 2017-08-16T10:55:58.591
+Unexpected IOException with stream: e
+
+# Created on 2017-08-16T10:55:58.591
+Unexpected IOException with stream:  
+
+# Created on 2017-08-16T10:55:58.591
+Unexpected IOException with stream: a
+
+# Created on 2017-08-16T10:55:58.591
+Unexpected IOException with stream: l
+
+# Created on 2017-08-16T10:55:58.592
+Unexpected IOException with stream: l
+
+# Created on 2017-08-16T10:55:58.592
+Unexpected IOException with stream: o
+
+# Created on 2017-08-16T10:55:58.592
+Unexpected IOException with stream: w
+
+# Created on 2017-08-16T10:55:58.592
+Unexpected IOException with stream: e
+
+# Created on 2017-08-16T10:55:58.592
+Unexpected IOException with stream: d
+
+# Created on 2017-08-16T10:55:58.592
+Unexpected IOException with stream: .
+
+# Created on 2017-08-16T10:55:58.592
+Unexpected IOException with stream: 
+
+
+# Created on 2017-08-16T10:55:59.199
+Unexpected IOException with stream: Aug 16, 2017 10:55:59 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+
+
+# Created on 2017-08-16T10:55:59.210
+Unexpected IOException: 5,1,Scenario: Add an observer,* Open the browser(Scenario: Add an observer),null,null,null
+
+
+# Created on 2017-08-16T10:55:59.210
+Unexpected IOException: 6,1,Scenario: Add an observer,* Open the browser(Scenario: Add an observer),null,null,null
+
+
+# Created on 2017-08-16T10:56:00.827
+Unexpected IOException: 5,1,Scenario: Add an observer,* User navigates to 'http://qc.ionhands-sa.com/'(Scenario: Add an observer),null,null,null
+
+
+# Created on 2017-08-16T10:56:00.827
+Unexpected IOException: 6,1,Scenario: Add an observer,* User navigates to 'http://qc.ionhands-sa.com/'(Scenario: Add an observer),null,null,null
+
+
+# Created on 2017-08-16T10:56:03.832
+Unexpected IOException: 5,1,Scenario: Add an observer,* User clicks at Login link(Scenario: Add an observer),null,null,null
+
+
+# Created on 2017-08-16T10:56:03.834
+Unexpected IOException: 7,1,Scenario: Add an observer,* User clicks at Login link(Scenario: Add an observer),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=60.0.3112.90)\000A  (Driver info: chromedriver=2.29.461585 (0be2cd95f834e9ee7c46bcc7cf405b483f5ae83b)\002Cplatform=Mac OS X 10.12.3 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 3 milliseconds\000ABuild info: version: '3.4.0'\002C revision: 'unknown'\002C time: 'unknown'\000ASystem info: host: 'Tatras-MacBook-Pro.local'\002C ip: 'fd1c:6758:6f9b:da00:b5f5:9322:24af:69b2'\002C os.name: 'Mac OS X'\002C os.arch: 'x86_64'\002C os.version: '10.12.3'\002C java.version: '1.8.0_111'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities [{applicationCacheEnabled=false\002C rotatable=false\002C mobileEmulationEnabled=false\002C networkConnectionEnabled=false\002C chrome={chromedriverVersion=2.29.461585 (0be2cd95f834e9ee7c46bcc7cf405b483f5ae83b)\002C userDataDir=/var/folders/45/bxxg74bn3dncx0gcy47lc1300000gn/T/.org.chromium.Chromium.J313hM}\002C takesHeapSnapshot=true\002C pageLoadStrategy=normal\002C databaseEnabled=false\002C handlesAlerts=true\002C hasTouchScreen=false\002C version=60.0.3112.90\002C platform=MAC\002C browserConnectionEnabled=false\002C nativeEvents=true\002C acceptSslCerts=true\002C locationContextEnabled=true\002C webStorageEnabled=true\002C browserName=chrome\002C takesScreenshot=true\002C javascriptEnabled=true\002C cssSelectorsEnabled=true\002C unexpectedAlertBehaviour=}]\000ASession ID: 28d74c5c958f7e934c4e02ff2e473713\000A*** Element info: {Using=class name\002C value=navbar-nav},null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=60.0.3112.90)\000A  (Driver info: chromedriver=2.29.461585 (0be2cd95f834e9ee7c46bcc7cf405b483f5ae83b)\002Cplatform=Mac OS X 10.12.3 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 3 milliseconds\000ABuild info: version: '3.4.0'\002C revision: 'unknown'\002C time: 'unknown'\000ASystem info: host: 'Tatras-MacBook-Pro.local'\002C ip: 'fd1c:6758:6f9b:da00:b5f5:9322:24af:69b2'\002C os.name: 'Mac OS X'\002C os.arch: 'x86_64'\002C os.version: '10.12.3'\002C java.version: '1.8.0_111'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities [{applicationCacheEnabled=false\002C rotatable=false\002C mobileEmulationEnabled=false\002C networkConnectionEnabled=false\002C chrome={chromedriverVersion=2.29.461585 (0be2cd95f834e9ee7c46bcc7cf405b483f5ae83b)\002C userDataDir=/var/folders/45/bxxg74bn3dncx0gcy47lc1300000gn/T/.org.chromium.Chromium.J313hM}\002C takesHeapSnapshot=true\002C pageLoadStrategy=normal\002C databaseEnabled=false\002C handlesAlerts=true\002C hasTouchScreen=false\002C version=60.0.3112.90\002C platform=MAC\002C browserConnectionEnabled=false\002C nativeEvents=true\002C acceptSslCerts=true\002C locationContextEnabled=true\002C webStorageEnabled=true\002C browserName=chrome\002C takesScreenshot=true\002C javascriptEnabled=true\002C cssSelectorsEnabled=true\002C unexpectedAlertBehaviour=}]\000ASession ID: 28d74c5c958f7e934c4e02ff2e473713\000A*** Element info: {Using=class name\002C value=navbar-nav},no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=60.0.3112.90)\000A  (Driver info: chromedriver=2.29.461585 (0be2cd95f834e9ee7c46bcc7cf405b483f5ae83b)\002Cplatform=Mac OS X 10.12.3 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 3 milliseconds\000ABuild info: version: '3.4.0'\002C revision: 'unknown'\002C time: 'unknown'\000ASystem info: host: 'Tatras-MacBook-Pro.local'\002C ip: 'fd1c:6758:6f9b:da00:b5f5:9322:24af:69b2'\002C os.name: 'Mac OS X'\002C os.arch: 'x86_64'\002C os.version: '10.12.3'\002C java.version: '1.8.0_111'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities [{applicationCacheEnabled=false\002C rotatable=false\002C mobileEmulationEnabled=false\002C networkConnectionEnabled=false\002C chrome={chromedriverVersion=2.29.461585 (0be2cd95f834e9ee7c46bcc7cf405b483f5ae83b)\002C userDataDir=/var/folders/45/bxxg74bn3dncx0gcy47lc1300000gn/T/.org.chromium.Chromium.J313hM}\002C takesHeapSnapshot=true\002C pageLoadStrategy=normal\002C databaseEnabled=false\002C handlesAlerts=true\002C hasTouchScreen=false\002C version=60.0.3112.90\002C platform=MAC\002C browserConnectionEnabled=false\002C nativeEvents=true\002C acceptSslCerts=true\002C locationContextEnabled=true\002C webStorageEnabled=true\002C browserName=chrome\002C takesScreenshot=true\002C javascriptEnabled=true\002C cssSelectorsEnabled=true\002C unexpectedAlertBehaviour=}]\000ASession ID: 28d74c5c958f7e934c4e02ff2e473713\000A*** Element info: {Using=class name\002C value=navbar-nav},org.openqa.selenium.NoSuchWindowException: \000Ano such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=60.0.3112.90)\000A  (Driver info: chromedriver=2.29.461585 (0be2cd95f834e9ee7c46bcc7cf405b483f5ae83b)\002Cplatform=Mac OS X 10.12.3 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 3 milliseconds\000ABuild info: version: '3.4.0'\002C revision: 'unknown'\002C time: 'unknown'\000ASystem info: host: 'Tatras-MacBook-Pro.local'\002C ip: 'fd1c:6758:6f9b:da00:b5f5:9322:24af:69b2'\002C os.name: 'Mac OS X'\002C os.arch: 'x86_64'\002C os.version: '10.12.3'\002C java.version: '1.8.0_111'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities [{applicationCacheEnabled=false\002C rotatable=false\002C mobileEmulationEnabled=false\002C networkConnectionEnabled=false\002C chrome={chromedriverVersion=2.29.461585 (0be2cd95f834e9ee7c46bcc7cf405b483f5ae83b)\002C userDataDir=/var/folders/45/bxxg74bn3dncx0gcy47lc1300000gn/T/.org.chromium.Chromium.J313hM}\002C takesHeapSnapshot=true\002C pageLoadStrategy=normal\002C databaseEnabled=false\002C handlesAlerts=true\002C hasTouchScreen=false\002C version=60.0.3112.90\002C platform=MAC\002C browserConnectionEnabled=false\002C nativeEvents=true\002C acceptSslCerts=true\002C locationContextEnabled=true\002C webStorageEnabled=true\002C browserName=chrome\002C takesScreenshot=true\002C javascriptEnabled=true\002C cssSelectorsEnabled=true\002C unexpectedAlertBehaviour=}]\000ASession ID: 28d74c5c958f7e934c4e02ff2e473713\000A*** Element info: {Using=class name\002C value=navbar-nav}\000A
+
+
+# Created on 2017-08-16T10:56:03.835
+Unexpected IOException: 7,1,Scenario: Add an observer,Scenario: Add an observer,null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=60.0.3112.90)\000A  (Driver info: chromedriver=2.29.461585 (0be2cd95f834e9ee7c46bcc7cf405b483f5ae83b)\002Cplatform=Mac OS X 10.12.3 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 3 milliseconds\000ABuild info: version: '3.4.0'\002C revision: 'unknown'\002C time: 'unknown'\000ASystem info: host: 'Tatras-MacBook-Pro.local'\002C ip: 'fd1c:6758:6f9b:da00:b5f5:9322:24af:69b2'\002C os.name: 'Mac OS X'\002C os.arch: 'x86_64'\002C os.version: '10.12.3'\002C java.version: '1.8.0_111'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities [{applicationCacheEnabled=false\002C rotatable=false\002C mobileEmulationEnabled=false\002C networkConnectionEnabled=false\002C chrome={chromedriverVersion=2.29.461585 (0be2cd95f834e9ee7c46bcc7cf405b483f5ae83b)\002C userDataDir=/var/folders/45/bxxg74bn3dncx0gcy47lc1300000gn/T/.org.chromium.Chromium.J313hM}\002C takesHeapSnapshot=true\002C pageLoadStrategy=normal\002C databaseEnabled=false\002C handlesAlerts=true\002C hasTouchScreen=false\002C version=60.0.3112.90\002C platform=MAC\002C browserConnectionEnabled=false\002C nativeEvents=true\002C acceptSslCerts=true\002C locationContextEnabled=true\002C webStorageEnabled=true\002C browserName=chrome\002C takesScreenshot=true\002C javascriptEnabled=true\002C cssSelectorsEnabled=true\002C unexpectedAlertBehaviour=}]\000ASession ID: 28d74c5c958f7e934c4e02ff2e473713\000A*** Element info: {Using=class name\002C value=navbar-nav},null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=60.0.3112.90)\000A  (Driver info: chromedriver=2.29.461585 (0be2cd95f834e9ee7c46bcc7cf405b483f5ae83b)\002Cplatform=Mac OS X 10.12.3 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 3 milliseconds\000ABuild info: version: '3.4.0'\002C revision: 'unknown'\002C time: 'unknown'\000ASystem info: host: 'Tatras-MacBook-Pro.local'\002C ip: 'fd1c:6758:6f9b:da00:b5f5:9322:24af:69b2'\002C os.name: 'Mac OS X'\002C os.arch: 'x86_64'\002C os.version: '10.12.3'\002C java.version: '1.8.0_111'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities [{applicationCacheEnabled=false\002C rotatable=false\002C mobileEmulationEnabled=false\002C networkConnectionEnabled=false\002C chrome={chromedriverVersion=2.29.461585 (0be2cd95f834e9ee7c46bcc7cf405b483f5ae83b)\002C userDataDir=/var/folders/45/bxxg74bn3dncx0gcy47lc1300000gn/T/.org.chromium.Chromium.J313hM}\002C takesHeapSnapshot=true\002C pageLoadStrategy=normal\002C databaseEnabled=false\002C handlesAlerts=true\002C hasTouchScreen=false\002C version=60.0.3112.90\002C platform=MAC\002C browserConnectionEnabled=false\002C nativeEvents=true\002C acceptSslCerts=true\002C locationContextEnabled=true\002C webStorageEnabled=true\002C browserName=chrome\002C takesScreenshot=true\002C javascriptEnabled=true\002C cssSelectorsEnabled=true\002C unexpectedAlertBehaviour=}]\000ASession ID: 28d74c5c958f7e934c4e02ff2e473713\000A*** Element info: {Using=class name\002C value=navbar-nav},no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=60.0.3112.90)\000A  (Driver info: chromedriver=2.29.461585 (0be2cd95f834e9ee7c46bcc7cf405b483f5ae83b)\002Cplatform=Mac OS X 10.12.3 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 3 milliseconds\000ABuild info: version: '3.4.0'\002C revision: 'unknown'\002C time: 'unknown'\000ASystem info: host: 'Tatras-MacBook-Pro.local'\002C ip: 'fd1c:6758:6f9b:da00:b5f5:9322:24af:69b2'\002C os.name: 'Mac OS X'\002C os.arch: 'x86_64'\002C os.version: '10.12.3'\002C java.version: '1.8.0_111'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities [{applicationCacheEnabled=false\002C rotatable=false\002C mobileEmulationEnabled=false\002C networkConnectionEnabled=false\002C chrome={chromedriverVersion=2.29.461585 (0be2cd95f834e9ee7c46bcc7cf405b483f5ae83b)\002C userDataDir=/var/folders/45/bxxg74bn3dncx0gcy47lc1300000gn/T/.org.chromium.Chromium.J313hM}\002C takesHeapSnapshot=true\002C pageLoadStrategy=normal\002C databaseEnabled=false\002C handlesAlerts=true\002C hasTouchScreen=false\002C version=60.0.3112.90\002C platform=MAC\002C browserConnectionEnabled=false\002C nativeEvents=true\002C acceptSslCerts=true\002C locationContextEnabled=true\002C webStorageEnabled=true\002C browserName=chrome\002C takesScreenshot=true\002C javascriptEnabled=true\002C cssSelectorsEnabled=true\002C unexpectedAlertBehaviour=}]\000ASession ID: 28d74c5c958f7e934c4e02ff2e473713\000A*** Element info: {Using=class name\002C value=navbar-nav},org.openqa.selenium.NoSuchWindowException: \000Ano such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=60.0.3112.90)\000A  (Driver info: chromedriver=2.29.461585 (0be2cd95f834e9ee7c46bcc7cf405b483f5ae83b)\002Cplatform=Mac OS X 10.12.3 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 3 milliseconds\000ABuild info: version: '3.4.0'\002C revision: 'unknown'\002C time: 'unknown'\000ASystem info: host: 'Tatras-MacBook-Pro.local'\002C ip: 'fd1c:6758:6f9b:da00:b5f5:9322:24af:69b2'\002C os.name: 'Mac OS X'\002C os.arch: 'x86_64'\002C os.version: '10.12.3'\002C java.version: '1.8.0_111'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities [{applicationCacheEnabled=false\002C rotatable=false\002C mobileEmulationEnabled=false\002C networkConnectionEnabled=false\002C chrome={chromedriverVersion=2.29.461585 (0be2cd95f834e9ee7c46bcc7cf405b483f5ae83b)\002C userDataDir=/var/folders/45/bxxg74bn3dncx0gcy47lc1300000gn/T/.org.chromium.Chromium.J313hM}\002C takesHeapSnapshot=true\002C pageLoadStrategy=normal\002C databaseEnabled=false\002C handlesAlerts=true\002C hasTouchScreen=false\002C version=60.0.3112.90\002C platform=MAC\002C browserConnectionEnabled=false\002C nativeEvents=true\002C acceptSslCerts=true\002C locationContextEnabled=true\002C webStorageEnabled=true\002C browserName=chrome\002C takesScreenshot=true\002C javascriptEnabled=true\002C cssSelectorsEnabled=true\002C unexpectedAlertBehaviour=}]\000ASession ID: 28d74c5c958f7e934c4e02ff2e473713\000A*** Element info: {Using=class name\002C value=navbar-nav}\000A
+
+
+# Created on 2017-08-16T10:56:03.836
+Unexpected IOException: 9,1,Scenario: Add an observer,* User enters correct username and password for hospital admin(Scenario: Add an observer),null,null,null
+
+
+# Created on 2017-08-16T10:56:03.836
+Unexpected IOException: 9,1,Scenario: Add an observer,* User clicks Login button(Scenario: Add an observer),null,null,null
+
+
+# Created on 2017-08-16T10:56:03.837
+Unexpected IOException: 9,1,Scenario: Add an observer,* Hospital admin will be logged in as well(Scenario: Add an observer),null,null,null
+
+
+# Created on 2017-08-16T10:56:03.837
+Unexpected IOException: 9,1,Scenario: Add an observer,* User clicks Observers link(Scenario: Add an observer),null,null,null
+
+
+# Created on 2017-08-16T10:56:03.838
+Unexpected IOException: 9,1,Scenario: Add an observer,* Observers page will be opened as well(Scenario: Add an observer),null,null,null
+
+
+# Created on 2017-08-16T10:56:03.838
+Unexpected IOException: 9,1,Scenario: Add an observer,* user clicks 'Add observer'(Scenario: Add an observer),null,null,null
+
+
+# Created on 2017-08-16T10:56:03.839
+Unexpected IOException: 9,1,Scenario: Add an observer,* User adds observer(Scenario: Add an observer),null,null,null
+
+
+# Created on 2017-08-16T10:56:03.839
+Unexpected IOException: 9,1,Scenario: Add an observer,* User clicks Submit button(Scenario: Add an observer),null,null,null
+
+
+# Created on 2017-08-16T10:56:03.839
+Unexpected IOException: 9,1,Scenario: Add an observer,* observer will be added as well(Scenario: Add an observer),null,null,null
+
+
+# Created on 2017-08-16T10:56:03.840
+Unexpected IOException: 9,1,Scenario: Add an observer,* Close the browser(Scenario: Add an observer),null,null,null
+
+
+# Created on 2017-08-16T10:56:03.840
+Unexpected IOException: 5,1,Scenario: Edit an observer,Scenario: Edit an observer,null,null,null
+
+
+# Created on 2017-08-16T10:56:03.855
+Unexpected IOException with stream: S
+
+# Created on 2017-08-16T10:56:03.855
+Unexpected IOException with stream: t
+
+# Created on 2017-08-16T10:56:03.855
+Unexpected IOException with stream: a
+
+# Created on 2017-08-16T10:56:03.855
+Unexpected IOException with stream: r
+
+# Created on 2017-08-16T10:56:03.855
+Unexpected IOException with stream: t
+
+# Created on 2017-08-16T10:56:03.856
+Unexpected IOException with stream: i
+
+# Created on 2017-08-16T10:56:03.856
+Unexpected IOException with stream: n
+
+# Created on 2017-08-16T10:56:03.856
+Unexpected IOException with stream: g
+
+# Created on 2017-08-16T10:56:03.856
+Unexpected IOException with stream:  
+
+# Created on 2017-08-16T10:56:03.856
+Unexpected IOException with stream: C
+
+# Created on 2017-08-16T10:56:03.856
+Unexpected IOException with stream: h
+
+# Created on 2017-08-16T10:56:03.857
+Unexpected IOException with stream: r
+
+# Created on 2017-08-16T10:56:03.857
+Unexpected IOException with stream: o
+
+# Created on 2017-08-16T10:56:03.857
+Unexpected IOException with stream: m
+
+# Created on 2017-08-16T10:56:03.857
+Unexpected IOException with stream: e
+
+# Created on 2017-08-16T10:56:03.858
+Unexpected IOException with stream: D
+
+# Created on 2017-08-16T10:56:03.858
+Unexpected IOException with stream: r
+
+# Created on 2017-08-16T10:56:03.858
+Unexpected IOException with stream: i
+
+# Created on 2017-08-16T10:56:03.858
+Unexpected IOException with stream: v
+
+# Created on 2017-08-16T10:56:03.858
+Unexpected IOException with stream: e
+
+# Created on 2017-08-16T10:56:03.858
+Unexpected IOException with stream: r
+
+# Created on 2017-08-16T10:56:03.858
+Unexpected IOException with stream:  
+
+# Created on 2017-08-16T10:56:03.858
+Unexpected IOException with stream: 2
+
+# Created on 2017-08-16T10:56:03.858
+Unexpected IOException with stream: .
+
+# Created on 2017-08-16T10:56:03.859
+Unexpected IOException with stream: 2
+
+# Created on 2017-08-16T10:56:03.859
+Unexpected IOException with stream: 9
+
+# Created on 2017-08-16T10:56:03.859
+Unexpected IOException with stream: .
+
+# Created on 2017-08-16T10:56:03.859
+Unexpected IOException with stream: 4
+
+# Created on 2017-08-16T10:56:03.859
+Unexpected IOException with stream: 6
+
+# Created on 2017-08-16T10:56:03.859
+Unexpected IOException with stream: 1
+
+# Created on 2017-08-16T10:56:03.859
+Unexpected IOException with stream: 5
+
+# Created on 2017-08-16T10:56:03.859
+Unexpected IOException with stream: 8
+
+# Created on 2017-08-16T10:56:03.860
+Unexpected IOException with stream: 5
+
+# Created on 2017-08-16T10:56:03.860
+Unexpected IOException with stream:  
+
+# Created on 2017-08-16T10:56:03.860
+Unexpected IOException with stream: (
+
+# Created on 2017-08-16T10:56:03.860
+Unexpected IOException with stream: 0
+
+# Created on 2017-08-16T10:56:03.860
+Unexpected IOException with stream: b
+
+# Created on 2017-08-16T10:56:03.860
+Unexpected IOException with stream: e
+
+# Created on 2017-08-16T10:56:03.860
+Unexpected IOException with stream: 2
+
+# Created on 2017-08-16T10:56:03.861
+Unexpected IOException with stream: c
+
+# Created on 2017-08-16T10:56:03.861
+Unexpected IOException with stream: d
+
+# Created on 2017-08-16T10:56:03.861
+Unexpected IOException with stream: 9
+
+# Created on 2017-08-16T10:56:03.861
+Unexpected IOException with stream: 5
+
+# Created on 2017-08-16T10:56:03.861
+Unexpected IOException with stream: f
+
+# Created on 2017-08-16T10:56:03.861
+Unexpected IOException with stream: 8
+
+# Created on 2017-08-16T10:56:03.861
+Unexpected IOException with stream: 3
+
+# Created on 2017-08-16T10:56:03.862
+Unexpected IOException with stream: 4
+
+# Created on 2017-08-16T10:56:03.862
+Unexpected IOException with stream: e
+
+# Created on 2017-08-16T10:56:03.862
+Unexpected IOException with stream: 9
+
+# Created on 2017-08-16T10:56:03.862
+Unexpected IOException with stream: e
+
+# Created on 2017-08-16T10:56:03.862
+Unexpected IOException with stream: e
+
+# Created on 2017-08-16T10:56:03.863
+Unexpected IOException with stream: 7
+
+# Created on 2017-08-16T10:56:03.863
+Unexpected IOException with stream: c
+
+# Created on 2017-08-16T10:56:03.863
+Unexpected IOException with stream: 4
+
+# Created on 2017-08-16T10:56:03.863
+Unexpected IOException with stream: 6
+
+# Created on 2017-08-16T10:56:03.863
+Unexpected IOException with stream: b
+
+# Created on 2017-08-16T10:56:03.863
+Unexpected IOException with stream: c
+
+# Created on 2017-08-16T10:56:03.864
+Unexpected IOException with stream: c
+
+# Created on 2017-08-16T10:56:03.864
+Unexpected IOException with stream: 7
+
+# Created on 2017-08-16T10:56:03.864
+Unexpected IOException with stream: c
+
+# Created on 2017-08-16T10:56:03.864
+Unexpected IOException with stream: f
+
+# Created on 2017-08-16T10:56:03.864
+Unexpected IOException with stream: 4
+
+# Created on 2017-08-16T10:56:03.864
+Unexpected IOException with stream: 0
+
+# Created on 2017-08-16T10:56:03.864
+Unexpected IOException with stream: 5
+
+# Created on 2017-08-16T10:56:03.865
+Unexpected IOException with stream: b
+
+# Created on 2017-08-16T10:56:03.865
+Unexpected IOException with stream: 4
+
+# Created on 2017-08-16T10:56:03.865
+Unexpected IOException with stream: 8
+
+# Created on 2017-08-16T10:56:03.865
+Unexpected IOException with stream: 3
+
+# Created on 2017-08-16T10:56:03.865
+Unexpected IOException with stream: f
+
+# Created on 2017-08-16T10:56:03.865
+Unexpected IOException with stream: 5
+
+# Created on 2017-08-16T10:56:03.865
+Unexpected IOException with stream: a
+
+# Created on 2017-08-16T10:56:03.866
+Unexpected IOException with stream: e
+
+# Created on 2017-08-16T10:56:03.866
+Unexpected IOException with stream: 8
+
+# Created on 2017-08-16T10:56:03.866
+Unexpected IOException with stream: 3
+
+# Created on 2017-08-16T10:56:03.866
+Unexpected IOException with stream: b
+
+# Created on 2017-08-16T10:56:03.866
+Unexpected IOException with stream: )
+
+# Created on 2017-08-16T10:56:03.866
+Unexpected IOException with stream:  
+
+# Created on 2017-08-16T10:56:03.866
+Unexpected IOException with stream: o
+
+# Created on 2017-08-16T10:56:03.866
+Unexpected IOException with stream: n
+
+# Created on 2017-08-16T10:56:03.866
+Unexpected IOException with stream:  
+
+# Created on 2017-08-16T10:56:03.867
+Unexpected IOException with stream: p
+
+# Created on 2017-08-16T10:56:03.867
+Unexpected IOException with stream: o
+
+# Created on 2017-08-16T10:56:03.867
+Unexpected IOException with stream: r
+
+# Created on 2017-08-16T10:56:03.867
+Unexpected IOException with stream: t
+
+# Created on 2017-08-16T10:56:03.867
+Unexpected IOException with stream:  
+
+# Created on 2017-08-16T10:56:03.867
+Unexpected IOException with stream: 4
+
+# Created on 2017-08-16T10:56:03.867
+Unexpected IOException with stream: 7
+
+# Created on 2017-08-16T10:56:03.867
+Unexpected IOException with stream: 7
+
+# Created on 2017-08-16T10:56:03.868
+Unexpected IOException with stream: 4
+
+# Created on 2017-08-16T10:56:03.868
+Unexpected IOException with stream: 
+
+
+# Created on 2017-08-16T10:56:03.868
+Unexpected IOException with stream: O
+
+# Created on 2017-08-16T10:56:03.868
+Unexpected IOException with stream: n
+
+# Created on 2017-08-16T10:56:03.868
+Unexpected IOException with stream: l
+
+# Created on 2017-08-16T10:56:03.868
+Unexpected IOException with stream: y
+
+# Created on 2017-08-16T10:56:03.868
+Unexpected IOException with stream:  
+
+# Created on 2017-08-16T10:56:03.868
+Unexpected IOException with stream: l
+
+# Created on 2017-08-16T10:56:03.869
+Unexpected IOException with stream: o
+
+# Created on 2017-08-16T10:56:03.869
+Unexpected IOException with stream: c
+
+# Created on 2017-08-16T10:56:03.869
+Unexpected IOException with stream: a
+
+# Created on 2017-08-16T10:56:03.869
+Unexpected IOException with stream: l
+
+# Created on 2017-08-16T10:56:03.869
+Unexpected IOException with stream:  
+
+# Created on 2017-08-16T10:56:03.869
+Unexpected IOException with stream: c
+
+# Created on 2017-08-16T10:56:03.869
+Unexpected IOException with stream: o
+
+# Created on 2017-08-16T10:56:03.869
+Unexpected IOException with stream: n
+
+# Created on 2017-08-16T10:56:03.870
+Unexpected IOException with stream: n
+
+# Created on 2017-08-16T10:56:03.870
+Unexpected IOException with stream: e
+
+# Created on 2017-08-16T10:56:03.870
+Unexpected IOException with stream: c
+
+# Created on 2017-08-16T10:56:03.870
+Unexpected IOException with stream: t
+
+# Created on 2017-08-16T10:56:03.870
+Unexpected IOException with stream: i
+
+# Created on 2017-08-16T10:56:03.870
+Unexpected IOException with stream: o
+
+# Created on 2017-08-16T10:56:03.870
+Unexpected IOException with stream: n
+
+# Created on 2017-08-16T10:56:03.870
+Unexpected IOException with stream: s
+
+# Created on 2017-08-16T10:56:03.871
+Unexpected IOException with stream:  
+
+# Created on 2017-08-16T10:56:03.871
+Unexpected IOException with stream: a
+
+# Created on 2017-08-16T10:56:03.871
+Unexpected IOException with stream: r
+
+# Created on 2017-08-16T10:56:03.871
+Unexpected IOException with stream: e
+
+# Created on 2017-08-16T10:56:03.871
+Unexpected IOException with stream:  
+
+# Created on 2017-08-16T10:56:03.871
+Unexpected IOException with stream: a
+
+# Created on 2017-08-16T10:56:03.871
+Unexpected IOException with stream: l
+
+# Created on 2017-08-16T10:56:03.871
+Unexpected IOException with stream: l
+
+# Created on 2017-08-16T10:56:03.871
+Unexpected IOException with stream: o
+
+# Created on 2017-08-16T10:56:03.872
+Unexpected IOException with stream: w
+
+# Created on 2017-08-16T10:56:03.872
+Unexpected IOException with stream: e
+
+# Created on 2017-08-16T10:56:03.872
+Unexpected IOException with stream: d
+
+# Created on 2017-08-16T10:56:03.872
+Unexpected IOException with stream: .
+
+# Created on 2017-08-16T10:56:03.872
+Unexpected IOException with stream: 
+
+
+# Created on 2017-08-16T10:56:04.458
+Unexpected IOException with stream: Aug 16, 2017 10:56:04 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+
+
+# Created on 2017-08-16T10:56:04.472
+Unexpected IOException: 5,1,Scenario: Edit an observer,* Open the browser(Scenario: Edit an observer),null,null,null
+
+
+# Created on 2017-08-16T10:56:04.472
+Unexpected IOException: 6,1,Scenario: Edit an observer,* Open the browser(Scenario: Edit an observer),null,null,null
+
+
+# Created on 2017-08-16T10:56:06.863
+Unexpected IOException: 5,1,Scenario: Edit an observer,* User navigates to 'http://qc.ionhands-sa.com/'(Scenario: Edit an observer),null,null,null
+
+
+# Created on 2017-08-16T10:56:06.863
+Unexpected IOException: 6,1,Scenario: Edit an observer,* User navigates to 'http://qc.ionhands-sa.com/'(Scenario: Edit an observer),null,null,null
+
+
+# Created on 2017-08-16T10:56:09.874
+Unexpected IOException: 5,1,Scenario: Edit an observer,* User clicks at Login link(Scenario: Edit an observer),null,null,null
+
+
+# Created on 2017-08-16T10:56:09.875
+Unexpected IOException: 7,1,Scenario: Edit an observer,* User clicks at Login link(Scenario: Edit an observer),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=60.0.3112.90)\000A  (Driver info: chromedriver=2.29.461585 (0be2cd95f834e9ee7c46bcc7cf405b483f5ae83b)\002Cplatform=Mac OS X 10.12.3 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 4 milliseconds\000ABuild info: version: '3.4.0'\002C revision: 'unknown'\002C time: 'unknown'\000ASystem info: host: 'Tatras-MacBook-Pro.local'\002C ip: 'fd1c:6758:6f9b:da00:b5f5:9322:24af:69b2'\002C os.name: 'Mac OS X'\002C os.arch: 'x86_64'\002C os.version: '10.12.3'\002C java.version: '1.8.0_111'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities [{applicationCacheEnabled=false\002C rotatable=false\002C mobileEmulationEnabled=false\002C networkConnectionEnabled=false\002C chrome={chromedriverVersion=2.29.461585 (0be2cd95f834e9ee7c46bcc7cf405b483f5ae83b)\002C userDataDir=/var/folders/45/bxxg74bn3dncx0gcy47lc1300000gn/T/.org.chromium.Chromium.ApfQmj}\002C takesHeapSnapshot=true\002C pageLoadStrategy=normal\002C databaseEnabled=false\002C handlesAlerts=true\002C hasTouchScreen=false\002C version=60.0.3112.90\002C platform=MAC\002C browserConnectionEnabled=false\002C nativeEvents=true\002C acceptSslCerts=true\002C locationContextEnabled=true\002C webStorageEnabled=true\002C browserName=chrome\002C takesScreenshot=true\002C javascriptEnabled=true\002C cssSelectorsEnabled=true\002C unexpectedAlertBehaviour=}]\000ASession ID: 85583a000b2dd971cae78b669a0324e9\000A*** Element info: {Using=class name\002C value=navbar-nav},null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=60.0.3112.90)\000A  (Driver info: chromedriver=2.29.461585 (0be2cd95f834e9ee7c46bcc7cf405b483f5ae83b)\002Cplatform=Mac OS X 10.12.3 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 4 milliseconds\000ABuild info: version: '3.4.0'\002C revision: 'unknown'\002C time: 'unknown'\000ASystem info: host: 'Tatras-MacBook-Pro.local'\002C ip: 'fd1c:6758:6f9b:da00:b5f5:9322:24af:69b2'\002C os.name: 'Mac OS X'\002C os.arch: 'x86_64'\002C os.version: '10.12.3'\002C java.version: '1.8.0_111'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities [{applicationCacheEnabled=false\002C rotatable=false\002C mobileEmulationEnabled=false\002C networkConnectionEnabled=false\002C chrome={chromedriverVersion=2.29.461585 (0be2cd95f834e9ee7c46bcc7cf405b483f5ae83b)\002C userDataDir=/var/folders/45/bxxg74bn3dncx0gcy47lc1300000gn/T/.org.chromium.Chromium.ApfQmj}\002C takesHeapSnapshot=true\002C pageLoadStrategy=normal\002C databaseEnabled=false\002C handlesAlerts=true\002C hasTouchScreen=false\002C version=60.0.3112.90\002C platform=MAC\002C browserConnectionEnabled=false\002C nativeEvents=true\002C acceptSslCerts=true\002C locationContextEnabled=true\002C webStorageEnabled=true\002C browserName=chrome\002C takesScreenshot=true\002C javascriptEnabled=true\002C cssSelectorsEnabled=true\002C unexpectedAlertBehaviour=}]\000ASession ID: 85583a000b2dd971cae78b669a0324e9\000A*** Element info: {Using=class name\002C value=navbar-nav},no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=60.0.3112.90)\000A  (Driver info: chromedriver=2.29.461585 (0be2cd95f834e9ee7c46bcc7cf405b483f5ae83b)\002Cplatform=Mac OS X 10.12.3 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 4 milliseconds\000ABuild info: version: '3.4.0'\002C revision: 'unknown'\002C time: 'unknown'\000ASystem info: host: 'Tatras-MacBook-Pro.local'\002C ip: 'fd1c:6758:6f9b:da00:b5f5:9322:24af:69b2'\002C os.name: 'Mac OS X'\002C os.arch: 'x86_64'\002C os.version: '10.12.3'\002C java.version: '1.8.0_111'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities [{applicationCacheEnabled=false\002C rotatable=false\002C mobileEmulationEnabled=false\002C networkConnectionEnabled=false\002C chrome={chromedriverVersion=2.29.461585 (0be2cd95f834e9ee7c46bcc7cf405b483f5ae83b)\002C userDataDir=/var/folders/45/bxxg74bn3dncx0gcy47lc1300000gn/T/.org.chromium.Chromium.ApfQmj}\002C takesHeapSnapshot=true\002C pageLoadStrategy=normal\002C databaseEnabled=false\002C handlesAlerts=true\002C hasTouchScreen=false\002C version=60.0.3112.90\002C platform=MAC\002C browserConnectionEnabled=false\002C nativeEvents=true\002C acceptSslCerts=true\002C locationContextEnabled=true\002C webStorageEnabled=true\002C browserName=chrome\002C takesScreenshot=true\002C javascriptEnabled=true\002C cssSelectorsEnabled=true\002C unexpectedAlertBehaviour=}]\000ASession ID: 85583a000b2dd971cae78b669a0324e9\000A*** Element info: {Using=class name\002C value=navbar-nav},org.openqa.selenium.NoSuchWindowException: \000Ano such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=60.0.3112.90)\000A  (Driver info: chromedriver=2.29.461585 (0be2cd95f834e9ee7c46bcc7cf405b483f5ae83b)\002Cplatform=Mac OS X 10.12.3 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 4 milliseconds\000ABuild info: version: '3.4.0'\002C revision: 'unknown'\002C time: 'unknown'\000ASystem info: host: 'Tatras-MacBook-Pro.local'\002C ip: 'fd1c:6758:6f9b:da00:b5f5:9322:24af:69b2'\002C os.name: 'Mac OS X'\002C os.arch: 'x86_64'\002C os.version: '10.12.3'\002C java.version: '1.8.0_111'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities [{applicationCacheEnabled=false\002C rotatable=false\002C mobileEmulationEnabled=false\002C networkConnectionEnabled=false\002C chrome={chromedriverVersion=2.29.461585 (0be2cd95f834e9ee7c46bcc7cf405b483f5ae83b)\002C userDataDir=/var/folders/45/bxxg74bn3dncx0gcy47lc1300000gn/T/.org.chromium.Chromium.ApfQmj}\002C takesHeapSnapshot=true\002C pageLoadStrategy=normal\002C databaseEnabled=false\002C handlesAlerts=true\002C hasTouchScreen=false\002C version=60.0.3112.90\002C platform=MAC\002C browserConnectionEnabled=false\002C nativeEvents=true\002C acceptSslCerts=true\002C locationContextEnabled=true\002C webStorageEnabled=true\002C browserName=chrome\002C takesScreenshot=true\002C javascriptEnabled=true\002C cssSelectorsEnabled=true\002C unexpectedAlertBehaviour=}]\000ASession ID: 85583a000b2dd971cae78b669a0324e9\000A*** Element info: {Using=class name\002C value=navbar-nav}\000A
+
+
+# Created on 2017-08-16T10:56:09.876
+Unexpected IOException: 7,1,Scenario: Edit an observer,Scenario: Edit an observer,null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=60.0.3112.90)\000A  (Driver info: chromedriver=2.29.461585 (0be2cd95f834e9ee7c46bcc7cf405b483f5ae83b)\002Cplatform=Mac OS X 10.12.3 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 4 milliseconds\000ABuild info: version: '3.4.0'\002C revision: 'unknown'\002C time: 'unknown'\000ASystem info: host: 'Tatras-MacBook-Pro.local'\002C ip: 'fd1c:6758:6f9b:da00:b5f5:9322:24af:69b2'\002C os.name: 'Mac OS X'\002C os.arch: 'x86_64'\002C os.version: '10.12.3'\002C java.version: '1.8.0_111'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities [{applicationCacheEnabled=false\002C rotatable=false\002C mobileEmulationEnabled=false\002C networkConnectionEnabled=false\002C chrome={chromedriverVersion=2.29.461585 (0be2cd95f834e9ee7c46bcc7cf405b483f5ae83b)\002C userDataDir=/var/folders/45/bxxg74bn3dncx0gcy47lc1300000gn/T/.org.chromium.Chromium.ApfQmj}\002C takesHeapSnapshot=true\002C pageLoadStrategy=normal\002C databaseEnabled=false\002C handlesAlerts=true\002C hasTouchScreen=false\002C version=60.0.3112.90\002C platform=MAC\002C browserConnectionEnabled=false\002C nativeEvents=true\002C acceptSslCerts=true\002C locationContextEnabled=true\002C webStorageEnabled=true\002C browserName=chrome\002C takesScreenshot=true\002C javascriptEnabled=true\002C cssSelectorsEnabled=true\002C unexpectedAlertBehaviour=}]\000ASession ID: 85583a000b2dd971cae78b669a0324e9\000A*** Element info: {Using=class name\002C value=navbar-nav},null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=60.0.3112.90)\000A  (Driver info: chromedriver=2.29.461585 (0be2cd95f834e9ee7c46bcc7cf405b483f5ae83b)\002Cplatform=Mac OS X 10.12.3 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 4 milliseconds\000ABuild info: version: '3.4.0'\002C revision: 'unknown'\002C time: 'unknown'\000ASystem info: host: 'Tatras-MacBook-Pro.local'\002C ip: 'fd1c:6758:6f9b:da00:b5f5:9322:24af:69b2'\002C os.name: 'Mac OS X'\002C os.arch: 'x86_64'\002C os.version: '10.12.3'\002C java.version: '1.8.0_111'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities [{applicationCacheEnabled=false\002C rotatable=false\002C mobileEmulationEnabled=false\002C networkConnectionEnabled=false\002C chrome={chromedriverVersion=2.29.461585 (0be2cd95f834e9ee7c46bcc7cf405b483f5ae83b)\002C userDataDir=/var/folders/45/bxxg74bn3dncx0gcy47lc1300000gn/T/.org.chromium.Chromium.ApfQmj}\002C takesHeapSnapshot=true\002C pageLoadStrategy=normal\002C databaseEnabled=false\002C handlesAlerts=true\002C hasTouchScreen=false\002C version=60.0.3112.90\002C platform=MAC\002C browserConnectionEnabled=false\002C nativeEvents=true\002C acceptSslCerts=true\002C locationContextEnabled=true\002C webStorageEnabled=true\002C browserName=chrome\002C takesScreenshot=true\002C javascriptEnabled=true\002C cssSelectorsEnabled=true\002C unexpectedAlertBehaviour=}]\000ASession ID: 85583a000b2dd971cae78b669a0324e9\000A*** Element info: {Using=class name\002C value=navbar-nav},no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=60.0.3112.90)\000A  (Driver info: chromedriver=2.29.461585 (0be2cd95f834e9ee7c46bcc7cf405b483f5ae83b)\002Cplatform=Mac OS X 10.12.3 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 4 milliseconds\000ABuild info: version: '3.4.0'\002C revision: 'unknown'\002C time: 'unknown'\000ASystem info: host: 'Tatras-MacBook-Pro.local'\002C ip: 'fd1c:6758:6f9b:da00:b5f5:9322:24af:69b2'\002C os.name: 'Mac OS X'\002C os.arch: 'x86_64'\002C os.version: '10.12.3'\002C java.version: '1.8.0_111'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities [{applicationCacheEnabled=false\002C rotatable=false\002C mobileEmulationEnabled=false\002C networkConnectionEnabled=false\002C chrome={chromedriverVersion=2.29.461585 (0be2cd95f834e9ee7c46bcc7cf405b483f5ae83b)\002C userDataDir=/var/folders/45/bxxg74bn3dncx0gcy47lc1300000gn/T/.org.chromium.Chromium.ApfQmj}\002C takesHeapSnapshot=true\002C pageLoadStrategy=normal\002C databaseEnabled=false\002C handlesAlerts=true\002C hasTouchScreen=false\002C version=60.0.3112.90\002C platform=MAC\002C browserConnectionEnabled=false\002C nativeEvents=true\002C acceptSslCerts=true\002C locationContextEnabled=true\002C webStorageEnabled=true\002C browserName=chrome\002C takesScreenshot=true\002C javascriptEnabled=true\002C cssSelectorsEnabled=true\002C unexpectedAlertBehaviour=}]\000ASession ID: 85583a000b2dd971cae78b669a0324e9\000A*** Element info: {Using=class name\002C value=navbar-nav},org.openqa.selenium.NoSuchWindowException: \000Ano such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=60.0.3112.90)\000A  (Driver info: chromedriver=2.29.461585 (0be2cd95f834e9ee7c46bcc7cf405b483f5ae83b)\002Cplatform=Mac OS X 10.12.3 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 4 milliseconds\000ABuild info: version: '3.4.0'\002C revision: 'unknown'\002C time: 'unknown'\000ASystem info: host: 'Tatras-MacBook-Pro.local'\002C ip: 'fd1c:6758:6f9b:da00:b5f5:9322:24af:69b2'\002C os.name: 'Mac OS X'\002C os.arch: 'x86_64'\002C os.version: '10.12.3'\002C java.version: '1.8.0_111'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities [{applicationCacheEnabled=false\002C rotatable=false\002C mobileEmulationEnabled=false\002C networkConnectionEnabled=false\002C chrome={chromedriverVersion=2.29.461585 (0be2cd95f834e9ee7c46bcc7cf405b483f5ae83b)\002C userDataDir=/var/folders/45/bxxg74bn3dncx0gcy47lc1300000gn/T/.org.chromium.Chromium.ApfQmj}\002C takesHeapSnapshot=true\002C pageLoadStrategy=normal\002C databaseEnabled=false\002C handlesAlerts=true\002C hasTouchScreen=false\002C version=60.0.3112.90\002C platform=MAC\002C browserConnectionEnabled=false\002C nativeEvents=true\002C acceptSslCerts=true\002C locationContextEnabled=true\002C webStorageEnabled=true\002C browserName=chrome\002C takesScreenshot=true\002C javascriptEnabled=true\002C cssSelectorsEnabled=true\002C unexpectedAlertBehaviour=}]\000ASession ID: 85583a000b2dd971cae78b669a0324e9\000A*** Element info: {Using=class name\002C value=navbar-nav}\000A
+
+
+# Created on 2017-08-16T10:56:09.876
+Unexpected IOException: 9,1,Scenario: Edit an observer,* User enters correct username and password for hospital admin(Scenario: Edit an observer),null,null,null
+
+
+# Created on 2017-08-16T10:56:09.877
+Unexpected IOException: 9,1,Scenario: Edit an observer,* User clicks Login button(Scenario: Edit an observer),null,null,null
+
+
+# Created on 2017-08-16T10:56:09.877
+Unexpected IOException: 9,1,Scenario: Edit an observer,* Hospital admin will be logged in as well(Scenario: Edit an observer),null,null,null
+
+
+# Created on 2017-08-16T10:56:09.878
+Unexpected IOException: 9,1,Scenario: Edit an observer,* User clicks Observers link(Scenario: Edit an observer),null,null,null
+
+
+# Created on 2017-08-16T10:56:09.878
+Unexpected IOException: 9,1,Scenario: Edit an observer,* Observers page will be opened as well(Scenario: Edit an observer),null,null,null
+
+
+# Created on 2017-08-16T10:56:09.878
+Unexpected IOException: 9,1,Scenario: Edit an observer,* User clicks Edit for an observer(Scenario: Edit an observer),null,null,null
+
+
+# Created on 2017-08-16T10:56:09.878
+Unexpected IOException: 9,1,Scenario: Edit an observer,* User edits an observer(Scenario: Edit an observer),null,null,null
+
+
+# Created on 2017-08-16T10:56:09.879
+Unexpected IOException: 9,1,Scenario: Edit an observer,* User clicks Submit button(Scenario: Edit an observer),null,null,null
+
+
+# Created on 2017-08-16T10:56:09.879
+Unexpected IOException: 9,1,Scenario: Edit an observer,* Observer will be edited successfully(Scenario: Edit an observer),null,null,null
+
+
+# Created on 2017-08-16T10:56:09.879
+Unexpected IOException: 9,1,Scenario: Edit an observer,* Close the browser(Scenario: Edit an observer),null,null,null
+
+
+# Created on 2017-08-16T10:56:09.880
+Unexpected IOException: 5,1,Scenario: Deactivate an observer,Scenario: Deactivate an observer,null,null,null
+
+
+# Created on 2017-08-16T10:56:09.894
+Unexpected IOException with stream: S
+
+# Created on 2017-08-16T10:56:09.894
+Unexpected IOException with stream: t
+
+# Created on 2017-08-16T10:56:09.894
+Unexpected IOException with stream: a
+
+# Created on 2017-08-16T10:56:09.894
+Unexpected IOException with stream: r
+
+# Created on 2017-08-16T10:56:09.894
+Unexpected IOException with stream: t
+
+# Created on 2017-08-16T10:56:09.895
+Unexpected IOException with stream: i
+
+# Created on 2017-08-16T10:56:09.895
+Unexpected IOException with stream: n
+
+# Created on 2017-08-16T10:56:09.895
+Unexpected IOException with stream: g
+
+# Created on 2017-08-16T10:56:09.895
+Unexpected IOException with stream:  
+
+# Created on 2017-08-16T10:56:09.895
+Unexpected IOException with stream: C
+
+# Created on 2017-08-16T10:56:09.895
+Unexpected IOException with stream: h
+
+# Created on 2017-08-16T10:56:09.895
+Unexpected IOException with stream: r
+
+# Created on 2017-08-16T10:56:09.895
+Unexpected IOException with stream: o
+
+# Created on 2017-08-16T10:56:09.896
+Unexpected IOException with stream: m
+
+# Created on 2017-08-16T10:56:09.896
+Unexpected IOException with stream: e
+
+# Created on 2017-08-16T10:56:09.896
+Unexpected IOException with stream: D
+
+# Created on 2017-08-16T10:56:09.896
+Unexpected IOException with stream: r
+
+# Created on 2017-08-16T10:56:09.896
+Unexpected IOException with stream: i
+
+# Created on 2017-08-16T10:56:09.896
+Unexpected IOException with stream: v
+
+# Created on 2017-08-16T10:56:09.897
+Unexpected IOException with stream: e
+
+# Created on 2017-08-16T10:56:09.897
+Unexpected IOException with stream: r
+
+# Created on 2017-08-16T10:56:09.897
+Unexpected IOException with stream:  
+
+# Created on 2017-08-16T10:56:09.897
+Unexpected IOException with stream: 2
+
+# Created on 2017-08-16T10:56:09.897
+Unexpected IOException with stream: .
+
+# Created on 2017-08-16T10:56:09.897
+Unexpected IOException with stream: 2
+
+# Created on 2017-08-16T10:56:09.897
+Unexpected IOException with stream: 9
+
+# Created on 2017-08-16T10:56:09.897
+Unexpected IOException with stream: .
+
+# Created on 2017-08-16T10:56:09.897
+Unexpected IOException with stream: 4
+
+# Created on 2017-08-16T10:56:09.898
+Unexpected IOException with stream: 6
+
+# Created on 2017-08-16T10:56:09.898
+Unexpected IOException with stream: 1
+
+# Created on 2017-08-16T10:56:09.898
+Unexpected IOException with stream: 5
+
+# Created on 2017-08-16T10:56:09.898
+Unexpected IOException with stream: 8
+
+# Created on 2017-08-16T10:56:09.898
+Unexpected IOException with stream: 5
+
+# Created on 2017-08-16T10:56:09.899
+Unexpected IOException with stream:  
+
+# Created on 2017-08-16T10:56:09.899
+Unexpected IOException with stream: (
+
+# Created on 2017-08-16T10:56:09.899
+Unexpected IOException with stream: 0
+
+# Created on 2017-08-16T10:56:09.899
+Unexpected IOException with stream: b
+
+# Created on 2017-08-16T10:56:09.899
+Unexpected IOException with stream: e
+
+# Created on 2017-08-16T10:56:09.899
+Unexpected IOException with stream: 2
+
+# Created on 2017-08-16T10:56:09.899
+Unexpected IOException with stream: c
+
+# Created on 2017-08-16T10:56:09.899
+Unexpected IOException with stream: d
+
+# Created on 2017-08-16T10:56:09.900
+Unexpected IOException with stream: 9
+
+# Created on 2017-08-16T10:56:09.900
+Unexpected IOException with stream: 5
+
+# Created on 2017-08-16T10:56:09.900
+Unexpected IOException with stream: f
+
+# Created on 2017-08-16T10:56:09.900
+Unexpected IOException with stream: 8
+
+# Created on 2017-08-16T10:56:09.900
+Unexpected IOException with stream: 3
+
+# Created on 2017-08-16T10:56:09.900
+Unexpected IOException with stream: 4
+
+# Created on 2017-08-16T10:56:09.900
+Unexpected IOException with stream: e
+
+# Created on 2017-08-16T10:56:09.901
+Unexpected IOException with stream: 9
+
+# Created on 2017-08-16T10:56:09.901
+Unexpected IOException with stream: e
+
+# Created on 2017-08-16T10:56:09.901
+Unexpected IOException with stream: e
+
+# Created on 2017-08-16T10:56:09.901
+Unexpected IOException with stream: 7
+
+# Created on 2017-08-16T10:56:09.901
+Unexpected IOException with stream: c
+
+# Created on 2017-08-16T10:56:09.901
+Unexpected IOException with stream: 4
+
+# Created on 2017-08-16T10:56:09.902
+Unexpected IOException with stream: 6
+
+# Created on 2017-08-16T10:56:09.902
+Unexpected IOException with stream: b
+
+# Created on 2017-08-16T10:56:09.902
+Unexpected IOException with stream: c
+
+# Created on 2017-08-16T10:56:09.902
+Unexpected IOException with stream: c
+
+# Created on 2017-08-16T10:56:09.902
+Unexpected IOException with stream: 7
+
+# Created on 2017-08-16T10:56:09.902
+Unexpected IOException with stream: c
+
+# Created on 2017-08-16T10:56:09.903
+Unexpected IOException with stream: f
+
+# Created on 2017-08-16T10:56:09.903
+Unexpected IOException with stream: 4
+
+# Created on 2017-08-16T10:56:09.903
+Unexpected IOException with stream: 0
+
+# Created on 2017-08-16T10:56:09.903
+Unexpected IOException with stream: 5
+
+# Created on 2017-08-16T10:56:09.903
+Unexpected IOException with stream: b
+
+# Created on 2017-08-16T10:56:09.903
+Unexpected IOException with stream: 4
+
+# Created on 2017-08-16T10:56:09.903
+Unexpected IOException with stream: 8
+
+# Created on 2017-08-16T10:56:09.903
+Unexpected IOException with stream: 3
+
+# Created on 2017-08-16T10:56:09.904
+Unexpected IOException with stream: f
+
+# Created on 2017-08-16T10:56:09.904
+Unexpected IOException with stream: 5
+
+# Created on 2017-08-16T10:56:09.904
+Unexpected IOException with stream: a
+
+# Created on 2017-08-16T10:56:09.904
+Unexpected IOException with stream: e
+
+# Created on 2017-08-16T10:56:09.904
+Unexpected IOException with stream: 8
+
+# Created on 2017-08-16T10:56:09.904
+Unexpected IOException with stream: 3
+
+# Created on 2017-08-16T10:56:09.904
+Unexpected IOException with stream: b
+
+# Created on 2017-08-16T10:56:09.904
+Unexpected IOException with stream: )
+
+# Created on 2017-08-16T10:56:09.905
+Unexpected IOException with stream:  
+
+# Created on 2017-08-16T10:56:09.905
+Unexpected IOException with stream: o
+
+# Created on 2017-08-16T10:56:09.905
+Unexpected IOException with stream: n
+
+# Created on 2017-08-16T10:56:09.905
+Unexpected IOException with stream:  
+
+# Created on 2017-08-16T10:56:09.905
+Unexpected IOException with stream: p
+
+# Created on 2017-08-16T10:56:09.905
+Unexpected IOException with stream: o
+
+# Created on 2017-08-16T10:56:09.905
+Unexpected IOException with stream: r
+
+# Created on 2017-08-16T10:56:09.905
+Unexpected IOException with stream: t
+
+# Created on 2017-08-16T10:56:09.905
+Unexpected IOException with stream:  
+
+# Created on 2017-08-16T10:56:09.906
+Unexpected IOException with stream: 3
+
+# Created on 2017-08-16T10:56:09.906
+Unexpected IOException with stream: 6
+
+# Created on 2017-08-16T10:56:09.906
+Unexpected IOException with stream: 6
+
+# Created on 2017-08-16T10:56:09.906
+Unexpected IOException with stream: 6
+
+# Created on 2017-08-16T10:56:09.906
+Unexpected IOException with stream: 2
+
+# Created on 2017-08-16T10:56:09.906
+Unexpected IOException with stream: 
+
+
+# Created on 2017-08-16T10:56:09.907
+Unexpected IOException with stream: O
+
+# Created on 2017-08-16T10:56:09.907
+Unexpected IOException with stream: n
+
+# Created on 2017-08-16T10:56:09.907
+Unexpected IOException with stream: l
+
+# Created on 2017-08-16T10:56:09.907
+Unexpected IOException with stream: y
+
+# Created on 2017-08-16T10:56:09.907
+Unexpected IOException with stream:  
+
+# Created on 2017-08-16T10:56:09.907
+Unexpected IOException with stream: l
+
+# Created on 2017-08-16T10:56:09.907
+Unexpected IOException with stream: o
+
+# Created on 2017-08-16T10:56:09.907
+Unexpected IOException with stream: c
+
+# Created on 2017-08-16T10:56:09.908
+Unexpected IOException with stream: a
+
+# Created on 2017-08-16T10:56:09.908
+Unexpected IOException with stream: l
+
+# Created on 2017-08-16T10:56:09.908
+Unexpected IOException with stream:  
+
+# Created on 2017-08-16T10:56:09.908
+Unexpected IOException with stream: c
+
+# Created on 2017-08-16T10:56:09.908
+Unexpected IOException with stream: o
+
+# Created on 2017-08-16T10:56:09.908
+Unexpected IOException with stream: n
+
+# Created on 2017-08-16T10:56:09.908
+Unexpected IOException with stream: n
+
+# Created on 2017-08-16T10:56:09.908
+Unexpected IOException with stream: e
+
+# Created on 2017-08-16T10:56:09.908
+Unexpected IOException with stream: c
+
+# Created on 2017-08-16T10:56:09.908
+Unexpected IOException with stream: t
+
+# Created on 2017-08-16T10:56:09.909
+Unexpected IOException with stream: i
+
+# Created on 2017-08-16T10:56:09.909
+Unexpected IOException with stream: o
+
+# Created on 2017-08-16T10:56:09.909
+Unexpected IOException with stream: n
+
+# Created on 2017-08-16T10:56:09.909
+Unexpected IOException with stream: s
+
+# Created on 2017-08-16T10:56:09.909
+Unexpected IOException with stream:  
+
+# Created on 2017-08-16T10:56:09.909
+Unexpected IOException with stream: a
+
+# Created on 2017-08-16T10:56:09.909
+Unexpected IOException with stream: r
+
+# Created on 2017-08-16T10:56:09.909
+Unexpected IOException with stream: e
+
+# Created on 2017-08-16T10:56:09.909
+Unexpected IOException with stream:  
+
+# Created on 2017-08-16T10:56:09.910
+Unexpected IOException with stream: a
+
+# Created on 2017-08-16T10:56:09.910
+Unexpected IOException with stream: l
+
+# Created on 2017-08-16T10:56:09.910
+Unexpected IOException with stream: l
+
+# Created on 2017-08-16T10:56:09.910
+Unexpected IOException with stream: o
+
+# Created on 2017-08-16T10:56:09.910
+Unexpected IOException with stream: w
+
+# Created on 2017-08-16T10:56:09.910
+Unexpected IOException with stream: e
+
+# Created on 2017-08-16T10:56:09.910
+Unexpected IOException with stream: d
+
+# Created on 2017-08-16T10:56:09.910
+Unexpected IOException with stream: .
+
+# Created on 2017-08-16T10:56:09.910
+Unexpected IOException with stream: 
+
+
+# Created on 2017-08-16T10:56:10.497
+Unexpected IOException with stream: Aug 16, 2017 10:56:10 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+
+
+# Created on 2017-08-16T10:56:10.509
+Unexpected IOException: 5,1,Scenario: Deactivate an observer,* Open the browser(Scenario: Deactivate an observer),null,null,null
+
+
+# Created on 2017-08-16T10:56:10.509
+Unexpected IOException: 6,1,Scenario: Deactivate an observer,* Open the browser(Scenario: Deactivate an observer),null,null,null
+
+
+# Created on 2017-08-16T10:56:12.418
+Unexpected IOException: 5,1,Scenario: Deactivate an observer,* User navigates to 'http://qc.ionhands-sa.com/'(Scenario: Deactivate an observer),null,null,null
+
+
+# Created on 2017-08-16T10:56:12.418
+Unexpected IOException: 6,1,Scenario: Deactivate an observer,* User navigates to 'http://qc.ionhands-sa.com/'(Scenario: Deactivate an observer),null,null,null
+
+
